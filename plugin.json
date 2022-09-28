@@ -7,14 +7,24 @@
     {
       "name": "ijjxsw",
       "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/147xs/plugin.zip",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw/plugin.zip",
       "version": 1,
-      "source": "https://www.147xs.org",
-      "icon": "https://raw.githubusercontent.com/Moleys/vbook-ext/main/147xs/icon.png",
-      "description": "Đọc truyện trên trang https://www.147xs.org",
+      "source": "https://www.ijjxsw.net",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw/icon.png",
+      "description": "Đọc truyện trên trang https://www.ijjxsw.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
-    
+    {
+      "name": "ijjxsw.co",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-co/plugin.zip",
+      "version": 1,
+      "source": "https://www.ijjxsw.co",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-co/icon.png",
+      "description": "Đọc truyện trên trang https://www.ijjxsw.co",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }
   ]
 }
