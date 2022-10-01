@@ -47,6 +47,39 @@
       "description": "Đọc truyện trên trang https://www.txt99.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    } 
+    },
+    {
+      "name": "jjxsw.org",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/jjxsw.org/plugin.zip",
+      "version": 1,
+      "source": "https://www.jjxsw.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/jjxsw.org/icon.png",
+      "description": "Đọc truyện trên trang https://www.jjxsw.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "69shu.org",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/69shu.org/plugin.zip",
+      "version": 1,
+      "source": "https://www.69shu.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/69shu.org/icon.png",
+      "description": "Đọc truyện trên trang https://www.69shu.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "Biquge-bz",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/biquge.bz/plugin.zip",
+      "version": 1,
+      "source": "https://www.biquge.bz",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/biquge.bz/icon.png",
+      "description": "Đọc truyện trên trang https://www.biquge.bz",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }  
   ]
 }
