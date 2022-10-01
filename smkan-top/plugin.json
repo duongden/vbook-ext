@@ -1,7 +1,7 @@
 {
   "metadata": {
     "name": "lwread-smktan",
-    "author": "Moleys",
+    "author": "Đường đen sửa tên miền",
     "version": 1,
     "source": "http://www.smkan.top",
     "regexp": "(www.|m.)?smkan.top/(b|book)/\\d+(/?|\\.html)",
