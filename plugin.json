@@ -80,6 +80,17 @@
       "description": "Đọc truyện trên trang https://www.biquge.bz",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }  
+    },
+    {
+      "name": "fansg.cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/fansg-cc/plugin.zip",
+      "version": 1,
+      "source": "https://www.fansg.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/fansg-cc/icon.png",
+      "description": "Đọc truyện trên trang https://www.fansg.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }
   ]
 }
