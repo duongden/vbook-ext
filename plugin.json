@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "author": "Đường đen",
+    "description": "amateur"
+  },
+  "data": [
+    {
+      "name": "ijjxsw-net",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-net/plugin.zip",
+      "version": 1,
+      "source": "https://www.ijjxsw.net",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-net/icon.png",
+      "description": "Đọc truyện trên trang https://www.ijjxsw.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "ijjxsw.co",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-co/plugin.zip",
+      "version": 1,
+      "source": "https://www.ijjxsw.co",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-co/icon.png",
+      "description": "Đọc truyện trên trang https://www.ijjxsw.co",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "lwread-smkan",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/smkan-top/plugin.zip",
+      "version": 1,
+      "source": "https://www.smkan-top",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/smkan-top/icon.png",
+      "description": "Đọc truyện trên trang https://www.smkan-top",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "txt99-cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/txt99.cc/plugin.zip",
+      "version": 1,
+      "source": "https://www.txt99.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/txt99.cc/icon.png",
+      "description": "Đọc truyện trên trang https://www.txt99.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "jjxsw.org",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/jjxsw.org/plugin.zip",
+      "version": 1,
+      "source": "https://www.jjxsw.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/jjxsw.org/icon.png",
+      "description": "Đọc truyện trên trang https://www.jjxsw.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "69shu.org",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/69shu-org/plugin.zip",
+      "version": 1,
+      "source": "https://www.69shu.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/69shu-org/icon.png",
+      "description": "Đọc truyện trên trang https://www.69shu.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "Biquge-bz",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Biquge-bz/plugin.zip",
+      "version": 1,
+      "source": "https://www.biquge.bz",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Biquge-bz/icon.png",
+      "description": "Đọc truyện trên trang https://www.biquge.bz",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "fansg-cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/fansg-cc/plugin.zip",
+      "version": 1,
+      "source": "https://www.fansg.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/fansg-cc/icon.png",
+      "description": "Đọc truyện trên trang https://www.fansg.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }
+  ]
+}
