@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "biquge.bz",
+    "author": "banquyy -Đường đen sửa kệ sách",
+    "version": 1,
+    "source": "https://www.biquge.bz",
+    "regexp": "(www.)?biquge.bz/.*",
+    "description": "Đọc truyện trên trang biquge.bz",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
