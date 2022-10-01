@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "ijjxsw-net",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "http://www.ijjxsw.net",
+    "regexp": "(www.|m.)?ijjxsw.net/txt/\\d+(.html|.htm)",
+    "description": "Đọc truyện trên trang http://www.ijjxsw.net",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
