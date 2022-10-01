@@ -7,10 +7,10 @@
     {
       "name": "ijjxsw-net",
       "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw/plugin.zip",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-net/plugin.zip",
       "version": 1,
       "source": "https://www.ijjxsw.net",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw/icon.png",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-net/icon.png",
       "description": "Đọc truyện trên trang https://www.ijjxsw.net",
       "type": "chinese_novel",
       "locale": "zh_CN"
