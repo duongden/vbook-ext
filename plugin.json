@@ -91,6 +91,17 @@
       "description": "Đọc truyện trên trang https://www.fansg.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "oldtimesxs-cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/oldtimesxs-cc/plugin.zip",
+      "version": 1,
+      "source": "https://www.oldtimesxs.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/oldtimesxs-cc/icon.png",
+      "description": "Đọc truyện trên trang https://www.oldtimesxs.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
