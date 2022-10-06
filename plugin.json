@@ -102,6 +102,17 @@
       "description": "Đọc truyện trên trang https://www.oldtimesxs.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "b520.cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/b520.cc/plugin.zip",
+      "version": 1,
+      "source": "https://www.b520.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/b520.cc/icon.png",
+      "description": "Đọc truyện trên trang https://www.b520.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
