@@ -124,6 +124,17 @@
       "description": "Đọc truyện trên trang https://www.lxhentai.org",
       "type": "comic",
       "locale": "vi-VN"
+    },
+    {
+      "name": "2kxs.cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/2kxs-cc/plugin.zip",
+      "version": 2,
+      "source": "https://www.2kxs.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/2kxs-cc/icon.png",
+      "description": "Đọc truyện trên trang https://www.2kxs.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     } 
   ]
 }
