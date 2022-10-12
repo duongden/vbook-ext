@@ -146,6 +146,17 @@
       "description": "Đọc truyện trên trang https://www.630shu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    }
+    {
+      "name": "duanqingsi",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/duanqingsi/plugin.zip",
+      "version": 1,
+      "source": "https://www.duanqingsi.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/duanqingsi/icon.png",
+      "description": "Đọc truyện trên trang https://www.duanqingsi.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }  
   ]
 }

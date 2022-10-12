@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "duanqingsi",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "http://www.duanqingsi.com",
+    "regexp": "https://(www.|m.)?duanqingsi.com/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.duanqingsi.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "genre": "genre.js",
+    "chap": "chap.js"
+  }
+}
