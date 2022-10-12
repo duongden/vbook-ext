@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "630shu.com",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.630shu.com",
+    "regexp": "(www.)?630shu.com.*",
+    "description": "Đọc truyện trên trang 630shu.com",
+    "local": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

@@ -135,6 +135,17 @@
       "description": "Đọc truyện trên trang https://www.2kxs.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    } 
+    },
+    {
+      "name": "630shu.com",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/630shu-com/plugin.zip",
+      "version": 1,
+      "source": "https://www.630shu.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/630shu-com/icon.png",
+      "description": "Đọc truyện trên trang https://www.630shu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }  
   ]
 }
