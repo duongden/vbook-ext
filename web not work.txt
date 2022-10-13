@@ -18,7 +18,7 @@ https://www.80k.net/
 
 665txt
 
-baimalou123/bijibaba/bookmobe/haitang123/haitangkanshu/lwread/lewenkanshu/shenyekanshu = smkan.top
+baimalou123/bijibaba/bookmobe/haitang123/haitangkanshu/lwread/lewenkanshu/shenyekanshu/zhuyuqing = smkan.top
 
 https://www.banxia.tv/
 
@@ -46,3 +46,5 @@ bookrb.com ==> bookrbx.com
 piaotianzw ==> piaotian.la
 
 shuquge - doi thanh ishuquge
+
+wdbqg.com ==> wdbqg.cc
