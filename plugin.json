@@ -201,6 +201,17 @@
       "description": "Đọc truyện trên trang https://www.ibiquge.info",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "piaotian.la",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/piaotianzw/plugin.zip",
+      "version": 1,
+      "source": "https://www.piaotian.la",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/piaotianzw/icon.png",
+      "description": "Đọc truyện trên trang https://www.piaotian.la",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
