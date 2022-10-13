@@ -157,6 +157,28 @@
       "description": "Đọc truyện trên trang https://www.duanqingsi.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    } 
+    },
+    {
+      "name": "51kanshu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/51kanshu/plugin.zip",
+      "version": 1,
+      "source": "https://www.51kanshu.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/51kanshu/icon.png",
+      "description": "Đọc truyện trên trang https://www.51kanshu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "60ks.cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/60ks/plugin.zip",
+      "version": 1,
+      "source": "https://www.60ks.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/60ks/icon.png",
+      "description": "Đọc truyện trên trang https://www.60ks.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }
   ]
 }
