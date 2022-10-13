@@ -212,6 +212,17 @@
       "description": "Đọc truyện trên trang https://www.piaotian.la",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "qiuxiaoshuo",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/qiuxiaoshuo/plugin.zip",
+      "version": 1,
+      "source": "https://www.qiuxiaoshuo.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/qiuxiaoshuo/icon.png",
+      "description": "Đọc truyện trên trang https://www.qiuxiaoshuo.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
