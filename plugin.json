@@ -179,6 +179,28 @@
       "description": "Đọc truyện trên trang https://www.60ks.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "bookrbx",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/bookrbx/plugin.zip",
+      "version": 1,
+      "source": "https://www.bookrbx.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/bookrbx/icon.png",
+      "description": "Đọc truyện trên trang https://www.bookrbx.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "ibiquge",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge/plugin.zip",
+      "version": 1,
+      "source": "https://www.ibiquge.info",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge/icon.png",
+      "description": "Đọc truyện trên trang https://www.ibiquge.info",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
