@@ -5,7 +5,7 @@
     "version": 1,
     "source": "http://www.piaotian.la",
     "regexp": "(www.|m.)?piaotian.la/(b|book)/\\d+(/?|\\.html)",
-    "description": "piaotian.com đổi thành piaotianzw.la",
+    "description": "piaotianzw.com đổi thành piaotian.la",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
