@@ -2,7 +2,7 @@
   "metadata": {
     "name": "piaotian.la",
     "author": "Moleys",
-    "version": 1,
+    "version": 2,
     "source": "http://www.piaotian.la",
     "regexp": "(www.|m.)?piaotian.la/(b|book)/\\d+(/?|\\.html)",
     "description": "piaotianzw.com đổi thành piaotian.la",
