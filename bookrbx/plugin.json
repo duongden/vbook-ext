@@ -5,7 +5,7 @@
     "version": 1,
     "source": "http://www.bookrbx.com",
     "regexp": "(www.|m.)?bookrbx.com/\\d+/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang http://www.bookrbx.com",
+    "description": "bookrb.com thành http://www.bookrbx.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
