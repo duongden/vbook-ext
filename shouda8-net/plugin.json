@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "shouda8.net",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.shouda8.net",
+    "regexp": "(www.)?shouda8.net.*",
+    "description": "Đọc truyện trên trang shouda8.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
