@@ -234,6 +234,28 @@
       "description": "Đọc truyện trên trang https://www.ishuquge.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "2kshu.cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/2kshu-cc/plugin.zip",
+      "version": 1,
+      "source": "https://www.2kshu.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/2kshu-cc/icon.png",
+      "description": "Đọc truyện trên trang https://www.2kshu.cc",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "dizishu.com",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/dizishu/plugin.zip",
+      "version": 1,
+      "source": "https://www.dizishu.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/dizishu/icon.png",
+      "description": "Đọc truyện trên trang https://www.dizishu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
