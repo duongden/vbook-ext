@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "biquge.co",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.biquge.co",
+    "regexp": "(www|m)\\.biquge\\.co/\\d+_\\d+/?",
+    "description": "Đọc truyện trên trang https://www.biquge.co",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "home": "home.js",
+    "search": "search.js"
+  }
+}
