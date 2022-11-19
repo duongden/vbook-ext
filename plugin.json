@@ -82,17 +82,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "lxhentai",
-      "author": "Nhocconsr - Đường đen sửa tên miền",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/lxhentai/plugin.zip",
-      "version": 2,
-      "source": "https://www.lxhentai.org",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/lxhentai/icon.png",
-      "description": "Đọc truyện trên trang https://www.lxhentai.org",
-      "type": "comic",
-      "locale": "vi-VN"
-    },
-    {
       "name": "630shu.com",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/630shu-com/plugin.zip",
