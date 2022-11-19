@@ -93,17 +93,6 @@
       "locale": "vi-VN"
     },
     {
-      "name": "2kxs.cc",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/2kxs-cc/plugin.zip",
-      "version": 1,
-      "source": "https://www.2kxs.cc",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/2kxs-cc/icon.png",
-      "description": "Đọc truyện trên trang https://www.2kxs.cc",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "630shu.com",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/630shu-com/plugin.zip",
@@ -256,6 +245,17 @@
       "description": "Đọc truyện trên trang https://wujixsw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
+    },
+    {
+      "name": "Yushubo>Yushugu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/plugin.zip",
+      "version": 1,
+      "source": "https://www.yushugu.com/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/icon.png",
+      "description": "Đọc truyện trên trang https://www.yushugu.com/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    } 
   ]
 }
