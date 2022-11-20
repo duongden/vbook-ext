@@ -245,17 +245,6 @@
       "description": "Đọc truyện trên trang https://www.yushugu.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "paozww",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/paozww/plugin.zip",
-      "version": 1,
-      "source": "https://www.paozww.com/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/paozww/icon.png",
-      "description": "Đọc truyện trên trang https://www.paozww.com/",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
     }
   ]
 }
