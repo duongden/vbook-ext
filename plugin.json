@@ -235,16 +235,5 @@
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
-    {
-      "name": "wikisach.info",
-      "author": "vbook - Đường đen sửa tên miền",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/wikidich/plugin.zip",
-      "version": 1,
-      "source": "https://www.wikisach.info/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/wikidich/icon.png",
-      "description": "Đọc truyện trên trang https://www.wikisach.info/",
-      "type": "novel",
-      "locale": "vi_VN"
-    }
   ]
 }
