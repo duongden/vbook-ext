@@ -2,7 +2,7 @@
   "metadata": {
     "name": "dizishu.com",
     "author": "Đường đen",
-    "version": 1,
+    "version": 3,
     "source": "https://www.dizishu.com",
     "regexp": "(www.|m.)?((dizishu.com/b/\\d+/)|(dizishu.com/b/\\d+))",
     "description": "Đọc truyện trên trang dizishu.com",
