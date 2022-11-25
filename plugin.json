@@ -113,6 +113,17 @@
       "description": "Đọc truyện trên trang https://www.2cyxsw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "wujixsw.com",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/wujixsw/plugin.zip",
+      "version": 1,
+      "source": "https://wujixsw.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/plugin.zip/icon.png",
+      "description": "Đọc truyện trên trang https://wujixsw.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
