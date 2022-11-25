@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "paozww.com",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.paozww.com",
+    "regexp": "(www.)?paozww.com/biquge/.*",
+    "description": "Đọc truyện trên trang paozww.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc2.js",
+    "chap": "chap.js"
+  }
+}
