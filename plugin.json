@@ -120,8 +120,19 @@
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/wujixsw/plugin.zip",
       "version": 1,
       "source": "https://wujixsw.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/plugin.zip/icon.png",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/wujixsw/icon.png",
       "description": "Đọc truyện trên trang https://wujixsw.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "ibiquge.la",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge-la/plugin.zip",
+      "version": 1,
+      "source": "https://www.ibiquge.la",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge-la/icon.png",
+      "description": "Đọc truyện trên trang https://www.ibiquge.la",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
