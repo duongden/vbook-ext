@@ -16,28 +16,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "lwread-smkan",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/smkan-top/plugin.zip",
-      "version": 1,
-      "source": "https://www.smkan-top",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/smkan-top/icon.png",
-      "description": "Đọc truyện trên trang https://www.smkan-top",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Biquge-bz",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Biquge-bz/plugin.zip",
-      "version": 1,
-      "source": "https://www.biquge.bz",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Biquge-bz/icon.png",
-      "description": "Đọc truyện trên trang https://www.biquge.bz",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "69shu.org",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/69shu-org/plugin.zip",
@@ -45,17 +23,6 @@
       "source": "https://www.69shu.org",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/69shu-org/icon.png",
       "description": "Đọc truyện trên trang https://www.69shu.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "fansg-cc",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/fansg-cc/plugin.zip",
-      "version": 1,
-      "source": "https://www.fansg.cc",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/fansg-cc/icon.png",
-      "description": "Đọc truyện trên trang https://www.fansg.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
@@ -104,72 +71,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "51kanshu",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/51kanshu/plugin.zip",
-      "version": 1,
-      "source": "https://www.51kanshu.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/51kanshu/icon.png",
-      "description": "Đọc truyện trên trang https://www.51kanshu.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "60ks.cc",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/60ks/plugin.zip",
-      "version": 1,
-      "source": "https://www.60ks.cc",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/60ks/icon.png",
-      "description": "Đọc truyện trên trang https://www.60ks.cc",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "bookrbx",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/bookrbx/plugin.zip",
-      "version": 1,
-      "source": "https://www.bookrbx.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/bookrbx/icon.png",
-      "description": "Đọc truyện trên trang https://www.bookrbx.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "ibiquge",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge/plugin.zip",
-      "version": 1,
-      "source": "https://www.ibiquge.info",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge/icon.png",
-      "description": "Đọc truyện trên trang https://www.ibiquge.info",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "piaotian.la",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/piaotianzw/plugin.zip",
-      "version": 1,
-      "source": "https://www.piaotian.la",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/piaotianzw/icon.png",
-      "description": "Đọc truyện trên trang https://www.piaotian.la",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "qiuxiaoshuo",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/qiuxiaoshuo/plugin.zip",
-      "version": 1,
-      "source": "https://www.qiuxiaoshuo.org",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/qiuxiaoshuo/icon.png",
-      "description": "Đọc truyện trên trang https://www.qiuxiaoshuo.org",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "ishuquge",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/ishuquge/plugin.zip",
@@ -210,17 +111,6 @@
       "source": "https://www.2cyxsw.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/2cyxsw/icon.png",
       "description": "Đọc truyện trên trang https://www.2cyxsw.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "Yushubo>Yushugu",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/plugin.zip",
-      "version": 1,
-      "source": "https://www.yushugu.com/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/icon.png",
-      "description": "Đọc truyện trên trang https://www.yushugu.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
