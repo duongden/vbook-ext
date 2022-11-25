@@ -9,3 +9,12 @@ function execute(url) {
     }
     return null;
 }
+
+//clear rác
+function clean(htm){
+    htm = htm.replace(/(<br>\s*){2,}/g,'<br>');
+    htm = htm.replace(/<a[^>]*>([^<]+)<\/a>/g,'');
+    htm = htm.replace(/&(nbsp|amp|quot|lt|gt);/g, "");
+    htm = htm.replace(/<!--(<br \/>)?[^>]*-->/gm, '');
+    return htm;
+}
