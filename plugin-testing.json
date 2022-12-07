@@ -14,6 +14,17 @@
         "description": "Đọc truyện trên trang https://www.dizishu.com",
         "type": "chinese_novel",
         "locale": "zh_CN"
+      },
+      {
+        "name": "ishuquge",
+        "author": "Đường đen",
+        "path": "https://raw.githubusercontent.com/duongden/vbook/main/ishuquge/plugin.zip",
+        "version": 1,
+        "source": "https://www.ishuquge.com",
+        "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ishuquge/icon.png",
+        "description": "Đọc truyện trên trang https://www.ishuquge.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
       }
     ]
   }
