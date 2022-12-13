@@ -124,6 +124,17 @@
       "description": "Đọc truyện trên trang https://www.ibiquge.la",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "nettruyenking.com",
+      "author": "vBook",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/nettruyen/plugin.zip",
+      "version": 16,
+      "source": "https://www.nettruyenking.com/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/nettruyen/icon.png",
+      "description": "Cập nhật tên miền nettruyenking.com",
+      "type": "novel",
+      "locale": "vi_VN"
     }
   ]
 }
