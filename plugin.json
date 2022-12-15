@@ -126,17 +126,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "nettruyenking.com",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/nettruyen/plugin.zip",
-      "version": 16,
-      "source": "https://www.nettruyenking.com/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/nettruyen/icon.png",
-      "description": "Cập nhật tên miền nettruyenking.com",
-      "type": "novel",
-      "locale": "vi_VN"
-    },
-    {
       "name": "256wxc",
       "author": "Cá mụp cắn cáp",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/256wxc/plugin.zip",
