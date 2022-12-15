@@ -135,6 +135,28 @@
       "description": "Đọc truyện trên trang https://www.256wenku.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "dongliuxiaoshuo",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/dongliuxiaoshuo/plugin.zip",
+      "version": 1,
+      "source": "https://www.dongliuxiaoshuo.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/dongliuxiaoshuo/icon.png",
+      "description": "Đọc truyện trên trang https://www.dongliuxiaoshuo.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "youyoukanshu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/youyoukanshu/plugin.zip",
+      "version": 1,
+      "source": "https://www.youyoukanshu.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/youyoukanshu/icon.png",
+      "description": "Đọc truyện trên trang https://www.youyoukanshu.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
