@@ -115,17 +115,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "256wxc",
-      "author": "Cá mụp cắn cáp",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/256wxc/plugin.zip",
-      "version": 5,
-      "source": "https://www.256wenku.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/256wxc/icon.png",
-      "description": "Đọc truyện trên trang https://www.256wenku.com/",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "dongliuxiaoshuo",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/dongliuxiaoshuo/plugin.zip",
@@ -146,17 +135,6 @@
       "description": "Đọc truyện trên trang https://www.youyoukanshu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "www.yushugu.cc",
-      "author": "Nhocconsr",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/plugin.zip",
-      "version": 7,
-      "source": "https://www.www.yushugu.cc/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/icon.png",
-      "description": "Cập nhật tên miền www.yushugu.cc",
-      "type": "chinese_novel",
-      "locale": "zh-CN"
     }
   ]
 }
