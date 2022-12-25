@@ -93,17 +93,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "2cyxsw.com",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/2cyxsw/plugin.zip",
-      "version": 1,
-      "source": "https://www.2cyxsw.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/2cyxsw/icon.png",
-      "description": "Đọc truyện trên trang https://www.2cyxsw.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "wujixsw.com",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/wujixsw/plugin.zip",
