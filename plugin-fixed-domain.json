@@ -5,15 +5,15 @@
   },
   "data": [
     {
-      "name": "nettruyenking.com",
-      "author": "vBook",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/nettruyen/plugin.zip",
-      "version": 16,
-      "source": "https://www.nettruyenking.com/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/nettruyen/icon.png",
-      "description": "Cập nhật tên miền nettruyenking.com",
-      "type": "novel",
-      "locale": "vi_VN"
+      "name": "www.yushugu.cc",
+      "author": "Nhocconsr",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/plugin.zip",
+      "version": 7,
+      "source": "https://www.www.yushugu.cc/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/icon.png",
+      "description": "Cập nhật tên miền www.yushugu.cc",
+      "type": "chinese_novel",
+      "locale": "zh-CN"
     }
   ]
 }
