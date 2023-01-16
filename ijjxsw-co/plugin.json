@@ -2,7 +2,7 @@
   "metadata": {
     "name": "ijjxsw.co",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "http://www.ijjxsw.co",
     "regexp": "(www.|m.)?ijjxsw.co/txt/\\d+(.html|.htm)",
     "description": "Đọc truyện trên trang http://www.ijjxsw.co",
