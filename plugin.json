@@ -157,17 +157,6 @@
       "description": "Đọc truyện trên trang https://www.2kxs.cc",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
-    // {
-    //   "name": "yushugu",
-    //   "author": "Nhocconsr",
-    //   "path": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/plugin.zip",
-    //   "version": 8,
-    //   "source": "https://www.yushugu.net/",
-    //   "icon": "https://raw.githubusercontent.com/duongden/vbook/main/yushubo/icon.png",
-    //   "description": "Đọc truyện trên trang https://www.yushugu.net",
-    //   "type": "chinese_novel",
-    //   "locale": "zh_CN"
-    // }
+    }
   ]
 }
