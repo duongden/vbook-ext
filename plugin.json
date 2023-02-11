@@ -93,6 +93,17 @@
       "locale": "zh_CN"
     },
     {
+      "name": "ibiquge.net",
+      "author": "Moleys",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge/plugin.zip",
+      "version": 2,
+      "source": "https://www.ibiquge.net",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge/icon.png",
+      "description": "Đọc truyện trên trang https://www.ibiquge.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "wujixsw.com",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/wujixsw/plugin.zip",
