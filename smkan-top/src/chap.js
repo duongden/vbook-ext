@@ -6,16 +6,17 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
+        console.log("blacktea");
         // 1/2 text đầu không bị mã hóa
         let htm = doc.select("#C0NTENT");
         htm.select("p[style=\"color:red;\"]").remove();
-        htm = htm.html().replace("<p>收藏网址：www.smkan.topm<\/p>","").replace("<p>(＞人＜；)<\/p>","");
+        htm = htm.html().replace("<p>收藏网址：www.smkan.topm<\/p>", "").replace("<p>(＞人＜；)<\/p>", "");
         //1/2 text sau không bị mã hóa
         let text0 = doc.select("script").html().split("$('#C0NTENT').html(d(\"")[1];
-        let a = text0.split("\", \"")[0].trim().replace(/\\/g,"");
+        let a = text0.split("\", \"")[0].trim().replace(/\\/g, "");
         let b = text0.split("\", \"")[1].split("\"));")[0].trim();
 
-        htm = d(a,b);
+        htm = d(a, b);
 
         return Response.success(htm);
     }

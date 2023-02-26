@@ -4,7 +4,7 @@ function execute(url, page) {
         let doc = response.html();
         const data = [];
         doc.select("#newscontent .l li").forEach(e => {
-
+            console.log("blacktea");
             data.push({
                 name: e.select(".s2 a").first().text(),
                 link: e.select(".s2 a").first().attr("href"),

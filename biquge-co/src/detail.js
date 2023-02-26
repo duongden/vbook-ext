@@ -7,7 +7,7 @@ function execute(url) {
 
     var author = $.Q(doc, '#info p').text().replace(/作.*者：/, '');
     var lastUpdated = $.Q(doc, '#info > p:nth-child(4)').text();
-
+    console.log("blacktea");
     return Response.success({
         name: $.Q(doc, '#info > h1').text(),
         cover: $.Q(doc, '#fmimg img').attr('src'),

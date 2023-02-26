@@ -1,16 +1,3 @@
-// function execute(url) {
-//     const doc = Http.get(url).html();
-
-//     return Response.success({
-//         name: doc.select("#info h1").text().split('/')[0],
-//         cover: doc.select("#fmimg img").first().attr("src"),
-//         author: doc.select("#info p").first().text(),
-//         description: doc.select("#intro").text(),
-//         detail: doc.select("#info p").text(),
-//         host: "https://www.9biquge.com"
-//     });
-// }
-
 load('config.js');
 function execute(url) {
     url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);

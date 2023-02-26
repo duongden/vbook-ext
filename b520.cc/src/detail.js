@@ -2,7 +2,7 @@ function execute(url) {
     url = url.replace('m.b520.cc', 'www.b520.cc');
     let response = fetch(url);
     if (response.ok) {
-
+        console.log("blacktea");
         let doc = response.html();
         let coverImg = doc.select("#fmimg img").first().attr("src");
         if (coverImg.startsWith("/")) {

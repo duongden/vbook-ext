@@ -2,7 +2,7 @@ function execute(url) {
     url = url.replace('m.duanqingsi.com', 'www.duanqingsi.com');
     let response = fetch(url);
     if (response.ok) {
-
+        console.log("blacktea");
         let doc = response.html();
         let coverImg = doc.select(".imgbox img").first().attr("src");
         if (coverImg.startsWith("/")) {
@@ -14,7 +14,7 @@ function execute(url) {
             cover: coverImg,
             author: author,
             description: doc.select(".desc").text(),
-            detail: "作者：" + author + "<br>" +doc.select(".fix p").get(4).html(),
+            detail: "作者：" + author + "<br>" + doc.select(".fix p").get(4).html(),
             host: "http://www.duanqingsi.com"
         });
     }

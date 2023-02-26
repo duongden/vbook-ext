@@ -1,10 +1,10 @@
 function execute(url) {
     url = url.replace('m.biquge.la', 'www.biquge.la');
-    if(url.slice(-1) !== "/")
+    if (url.slice(-1) !== "/")
         url = url + "/";
     let response = fetch(url);
     if (response.ok) {
-
+        console.log("blacktea");
         let doc = response.html();
         let coverImg = doc.select(".img img").first().attr("src");
         if (coverImg.startsWith("/")) {

@@ -1,8 +1,8 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get("https://www.630shu.com/"+url+"_"+page+"/").html();
-
-    var next = doc.select("#pagelink").select("a.next").attr('href').split('_')[1].replace('/','');
+    const doc = Http.get("https://www.630shu.com/" + url + "_" + page + "/").html();
+    console.log("blacktea");
+    var next = doc.select("#pagelink").select("a.next").attr('href').split('_')[1].replace('/', '');
 
     const el = doc.select(".section-cols ul li")
 
@@ -14,7 +14,7 @@ function execute(url, page) {
         data.push({
             name: e.select(".s2 a").first().text(),
             link: e.select(".s2 a").first().attr("href"),
-            cover: 'https://www.630shu.com/files/article/image/'+fol+'/'+booKId+'/'+booKId+'s.jpg',
+            cover: 'https://www.630shu.com/files/article/image/' + fol + '/' + booKId + '/' + booKId + 's.jpg',
             description: e.select(".s4").text(),
             host: "https://www.630shu.com"
         })
