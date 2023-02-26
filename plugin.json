@@ -157,6 +157,28 @@
       "description": "Đọc truyện trên trang https://www.kanshu.top",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "97xiaoshuo",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/97xiaoshuo/plugin.zip",
+      "version": 1,
+      "source": "https://www.97xiaoshuo.net",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/97xiaoshuo/icon.png",
+      "description": "Đọc truyện trên trang https://www.97xiaoshuo.net",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "9biquge",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/9biquge/plugin.zip",
+      "version": 1,
+      "source": "https://www.9biquge.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/9biquge/icon.png",
+      "description": "Đọc truyện trên trang https://www.9biquge.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

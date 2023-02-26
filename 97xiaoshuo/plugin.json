@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "97xiaoshuo",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "http://www.97xiaoshuo.net",
+    "regexp": "www.?97xiaoshuo.net/\\d+_\\d+/?$",
+    "description": "Đọc truyện trên trang http://www.97xiaoshuo.net",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
