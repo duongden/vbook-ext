@@ -5,7 +5,7 @@
   },
   "data": [
     {
-      "name": "ijjxsw.co",
+      "name": "久久小说下载网-ijjxsw.co",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/ijjxsw-co/plugin.zip",
       "version": 2,
@@ -27,7 +27,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "oldtimesxs-cc",
+      "name": "旧时光文学-oldtimesxs-cc",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/oldtimesxs-cc/plugin.zip",
       "version": 1,
@@ -60,7 +60,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "duanqingsi",
+      "name": "断青丝小说 - duanqingsi",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/duanqingsi/plugin.zip",
       "version": 1,
@@ -93,7 +93,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ibiquge.net",
+      "name": "爱笔楼 - ibiquge.net",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge/plugin.zip",
       "version": 2,
@@ -104,7 +104,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "wujixsw.com",
+      "name": "无极小说-wujixsw.com",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/wujixsw/plugin.zip",
       "version": 1,
@@ -115,7 +115,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ibiquge.la",
+      "name": "香书小说 - ibiquge.la",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/ibiquge-la/plugin.zip",
       "version": 1,
@@ -126,7 +126,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "dongliuxiaoshuo",
+      "name": "东流小说 - dongliuxiaoshuo",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/dongliuxiaoshuo/plugin.zip",
       "version": 1,
@@ -148,7 +148,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "kanshu-top",
+      "name": "看书网-Kanshu",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/kanshu-top/plugin.zip",
       "version": 1,
@@ -190,6 +190,17 @@
       "description": "Đọc truyện trên trang https://www.ishuquge.org",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
+    },
+    {
+      "name": "笔趣阁-smkan",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/smkan-top/plugin.zip",
+      "version": 1,
+      "source": "https://www.smkan.top",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/smkan-top/icon.png",
+      "description": "Đọc truyện trên trang https://www.smkan.top",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    } 
   ]
 }
