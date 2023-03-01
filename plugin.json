@@ -179,6 +179,17 @@
       "description": "Đọc truyện trên trang https://www.9biquge.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "书趣阁 - ishuquge",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/ishuquge/plugin.zip",
+      "version": 2,
+      "source": "https://www.ishuquge.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/ishuquge/icon.png",
+      "description": "Đọc truyện trên trang https://www.ishuquge.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
