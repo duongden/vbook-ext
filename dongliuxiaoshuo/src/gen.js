@@ -8,6 +8,7 @@ function execute(url, page) {
             if(e.select("a").first().text() !== null && e.select("a").first().text() !== '') {
                 data.push({
                     name: e.select("td a").first().text(),
+                    cover: "https://raw.githubusercontent.com/duongden/vbook/main/nocover.png",
                     link: e.select("td a").first().attr("href"),
                     description: e.select("td a").get(1).text(),
                     host: "https://www.dongliuxiaoshuo.com"

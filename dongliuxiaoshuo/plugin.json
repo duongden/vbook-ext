@@ -2,7 +2,7 @@
   "metadata": {
     "name": "东流小说 - dongliuxiaoshuo",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "https://www.dongliuxiaoshuo.com",
     "regexp": "(www.|m.)?dongliuxiaoshuo.com/read/(.*?)(/?|\\.html)",
     "description": "Đọc truyện trên trang https://www.dongliuxiaoshuo.com",
