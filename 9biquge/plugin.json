@@ -1,17 +1,18 @@
 {
   "metadata": {
-    "name": "笔趣阁 - 9biquge.com",
+    "name": "笔趣阁-9biquge.com",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "https://www.9biquge.com",
     "regexp": "www.?9biquge.com/\\d+/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang https://www.9biquge.com",
+    "description": "Cập nhật cover chung + cấu trúc",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
   },
   "script": {
     "home": "home.js",
+    "genre": "genre.js",
     "detail": "detail.js",
     "toc": "toc.js",
     "chap": "chap.js"
