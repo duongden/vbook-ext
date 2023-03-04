@@ -16,7 +16,7 @@ function execute(url) {
             name: doc.select("#info h1").text(),
             cover: coverImg,
             author: author,
-            description: doc.select("#intro").first().text().replace(/�/g, ""),
+            description: doc.select("#intro").first().text().replace(/\\n/g, ""),
             detail: "作者：" +  author + "<br>" + "<br>" + doc.select("#info p").get(3).text()+ "<br>",
             host: "https://www.97xiaoshuo.net/"
         });

@@ -8,7 +8,13 @@ function execute(url) {
         htm = htm.replace(/<a[^>]*>([^<]+)<\/a>/g, '')
             .replace(/ ?\n/g, "<br>")
             .replace(/<\/?p>/g, "")
-            .replace(/&(nbsp|amp|quot|lt|gt);/g, "");
+            .replace(/&(nbsp|amp|quot|lt|gt);/g, "")
+            .replace("首发网址ｍ．97xｉaoｓhuo。nｅt", "")
+            .replace("qiushu.cc [*.?]", "")
+            .replace("一秒记住hｔｔps：//m.97ｘiaｏshuo.ｎet", "")
+            .replace("（wwW.80txt.com 无弹窗广告）", "")
+            .replace("（WWW.mianhuatang.CC 好看的小说棉花糖", "")
+            .replace("记住网址ｍ.97ｘｉaoｓhuo．neｔ", "");
         return Response.success(htm);
     }
     return null;
