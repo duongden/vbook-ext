@@ -1,7 +1,9 @@
+load('config.js');
+
 function execute(url) {
     if (url.slice(-1) !== "/")
         url = url + "/";
-    url = url.replace('m.9biquge.com', 'www.9biquge.com');
+        url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -13,7 +15,7 @@ function execute(url) {
             data.push({
                 name: e.select("a").text(),
                 url: e.attr("href"),
-                host: "https://www.9biquge.com"
+                host: BASE_URL,
             })
         }
         return Response.success(data);

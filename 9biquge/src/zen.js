@@ -1,9 +1,11 @@
+load('config.js');
+
 function execute(url, page) {
     if (!page) page = '1';
     if (url.slice(-1) !== "/")
         url = url + "/";
-    url = url.replace('m.9biquge.com', 'www.9biquge.com');
-    //console.log(url + page + ".html")
+        url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    console.log(url + page + ".html")
     let response = fetch(url + page);
 
     if (response.ok) {
@@ -16,7 +18,7 @@ function execute(url, page) {
                 cover: "https://raw.githubusercontent.com/duongden/vbook/main/nocover.png",
                 link: e.select(".s2 a").first().attr("href"),
                 description: e.select(".s3 a").first().text(),
-                host: "https://www.9biquge.com"
+                host: BASE_URL,
             })
         });
 
