@@ -201,6 +201,17 @@
       "description": "Đọc truyện trên trang https://www.smkan.top",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "chuandaipc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/chuandaipc/plugin.zip",
+      "version": 1,
+      "source": "https://www.smkan.top",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/chuandaipc/icon.png",
+      "description": "Đọc truyện trên trang https://www.chuandaipc.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
