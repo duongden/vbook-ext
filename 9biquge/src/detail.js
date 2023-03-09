@@ -16,8 +16,10 @@ function execute(url) {
             name: doc.select("#info h1").text(),
             cover: coverImg,
             author: author,
-            description: doc.select("#intro").first().text().replace(/�/g, "").replace(/\\n/g, "<br>"),
-            detail: doc.select("#info p").text(),
+
+            description: doc.select("#intro").first().text().replace(/�/g, "").replace(/\\n/g, "⠀"),
+
+            detail: "作者：" + author + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>") + doc.select("#info > p:nth-child(4)").text().replace(/\d\d:\d\d:\d\d/g, "") + ("<br>⠀⠀⠀<br>") + doc.select("#info > p:nth-child(6)").text(),
             host: BASE_URL,
         });
     }
