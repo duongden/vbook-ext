@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "69书吧 - 69Shu.org",
+    "name": "69书吧-69Shu",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "https://www.69shu.org",
     "regexp": "(www.)?69shu.org.*",
     "description": "Đọc truyện trên trang 69shu.org",

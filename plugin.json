@@ -16,10 +16,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69书吧 - 69Shu.org",
+      "name": "69书吧-69Shu",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/69shu-org/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.69shu.org",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/69shu-org/icon.png",
       "description": "Đọc truyện trên trang https://www.69shu.org",
