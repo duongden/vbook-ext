@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "2K小说网 - 2kxs.cc",
+    "name": "2K小说网-2kxs",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "https://www.2kxs.cc",
     "regexp": "(www.)?2kxs.cc.*",
     "description": "Đọc truyện trên trang 2kxs.cc",

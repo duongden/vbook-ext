@@ -1,14 +1,19 @@
 function execute(url) {
     const doc = Http.get(url).html();
-    console.log("blacktea");
+
+    let coverImg = doc.select('meta[property="og:image"]').attr("content");
+    let descriptionMeta = doc.select('meta[property="og:description"]').attr("content");
+    let novelTitle = doc.select('meta[property="og:title"]').attr("content");
+    let newChap = doc.select('meta[property="og:novel:latest_chapter_name"]').attr("content");
+    let author = doc.select('meta[property="og:novel:author"]').attr("content");
+    let novelCategory = doc.select('meta[property="og:novel:category"]').attr("content");
+
     return Response.success({
-        name: doc.select("#info h1").text().split('/')[0],
-        cover: doc.select(".pic img").first().attr("src"),
-        author: doc.select(".author").first().text(),
-        description: doc.select(".bookinfo_intro").text(),
-
-        detail: doc.select("#info h1").text().split('/ ')[1] + '<br>' + doc.select(".booktag").html(),
-
+        name: novelTitle,
+        cover: coverImg,
+        author: author,
+        description: ("<br>Thể loại:<br>") + novelCategory + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>") + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>") + descriptionMeta,
+        detail: "Tác giả：" + author + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀<br>") + "Chương mới：" + newChap,
         host: "https://www.2kxs.cc"
     });
 }
