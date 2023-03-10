@@ -2,10 +2,10 @@
   "metadata": {
     "name": "小阁老-97xiaoshuo",
     "author": "Đường đen",
-    "version": 2,
+    "version": 3,
     "source": "http://www.97xiaoshuo.net",
     "regexp": "www.?97xiaoshuo.net/\\d+_\\d+/?$",
-    "description": "Đọc truyện trên trang http://www.97xiaoshuo.net",
+    "description": "Fix bug",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

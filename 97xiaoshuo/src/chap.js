@@ -14,6 +14,8 @@ function execute(url) {
             .replace("一秒记住hｔｔps：//m.97ｘiaｏshuo.ｎet", "")
             .replace("（wwW.80txt.com 无弹窗广告）", "")
             .replace("（WWW.mianhuatang.CC 好看的小说棉花糖", "")
+            .replace("最新章节！", '')
+            .replace("笔趣阁", '')
             .replace("记住网址ｍ.97ｘｉaoｓhuo．neｔ", "");
         return Response.success(htm);
     }
