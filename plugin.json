@@ -212,6 +212,17 @@
       "description": "Đọc truyện trên trang https://www.chuandaipc.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "9itan",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/9itan/plugin.zip",
+      "version": 1,
+      "source": "https://www.9itan.com/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/9itan/icon.png",
+      "description": "Đọc truyện trên trang https://www.9itan.com/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }

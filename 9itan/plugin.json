@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "9itan",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.9itan.com/",
+    "regexp": "(www|m)\\.9itan.*?/\\d+/\\d+/?",
+    "description": "Đọc truyện trên trang https://www.9itan.com/",
+    "local": "zh-CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "home": "home.js",
+    "search": "search.js"
+  }
+}
