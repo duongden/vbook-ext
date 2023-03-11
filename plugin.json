@@ -223,6 +223,17 @@
       "description": "Đọc truyện trên trang https://www.9itan.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "youyoukanshu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/youyoukanshu/plugin.zip",
+      "version": 2,
+      "source": "https://www.youyoukanshu.com/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/youyoukanshu/icon.png",
+      "description": "Đọc truyện trên trang https://www.youyoukanshu.com/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
