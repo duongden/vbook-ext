@@ -19,8 +19,8 @@ function execute(url) {
             name: title,
             cover: coverImg,
             author: author,
-            description: ("<br>Thể loại:<br>") + category + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>") + "Trạng thái:" + status + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>") + descriptionMeta,
-            detail: "作者：" + author + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀<br>") + "Cập nhật:" + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀<br>") + newChap,
+            description: ("<br>Thể loại:<br>") + category + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>") + "Trạng thái:" + status + ("<br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>") + descriptionMeta,
+            detail: "作者：" + author + ("<br>⠀⠀⠀⠀<br>") + "Mới nhất: "+ newChap,
             host: "https://www.youyoukanshu.com"
         });
     }
