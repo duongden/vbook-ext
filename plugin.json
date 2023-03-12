@@ -71,10 +71,10 @@
       "locale": "zh_CN"
     },
     {
-      "name": "笔趣阁 - biquge.co",
+      "name": "笔趣阁-biquge.co",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/biquge-co/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://www.biquge.co",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/biquge-co/icon.png",
       "description": "Đọc truyện trên trang https://www.biquge.co",
