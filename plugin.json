@@ -234,6 +234,17 @@
       "description": "Đọc truyện trên trang https://www.youyoukanshu.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "112738",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/112738/112738.zip",
+      "version": 1,
+      "source": "https://www.112738.com/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/icon.png",
+      "description": "Đọc truyện trên trang https://www.112738.com/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
