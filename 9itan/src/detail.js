@@ -1,9 +1,9 @@
 load('libs.js');
 
 function execute(url) {
-    url = url.replace('m.9itan.com', 'www.9itan.com');
+    url = url.replace('wap.9itan.com', 'www.9itan.com');
     var host = 'https://www.9itan.com';
-    url = url.replace('m.9itan.com', 'www.9itan.com').append('/');
+    url = url.replace('wap.9itan.com', 'www.9itan.com').append('/');
     var doc = Http.get(url).html('gbk');
 
     var author = $.Q(doc, '.introduce a[href*="author"]').text();
