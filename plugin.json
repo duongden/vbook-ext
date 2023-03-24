@@ -267,6 +267,17 @@
       "description": "Đọc truyện trên trang https://www.235wx.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "31dv",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/31dv/plugin.zip",
+      "version": 1,
+      "source": "https://www.31dv.com/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/31dv/icon.png",
+      "description": "Đọc truyện trên trang https://www.31dv.com/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
