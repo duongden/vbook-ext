@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "shukw",
+    "author": "Đường đen",
+    "version": 2,
+    "source": "http://www.shukw.com",
+    "regexp": "www.shukw.com/(read|book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang http://www.shukw.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
