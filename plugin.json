@@ -148,17 +148,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "看书网-Kanshu",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/kanshu-top/plugin.zip",
-      "version": 1,
-      "source": "https://www.kanshu.top",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/kanshu-top/icon.png",
-      "description": "Đọc truyện trên trang https://www.kanshu.top",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "小阁老-97xiaoshuo",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/97xiaoshuo/plugin.zip",
