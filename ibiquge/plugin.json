@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "爱笔楼 - ibiquge.net",
+    "name": "爱笔楼-ibiquge.net",
     "author": "Moleys",
-    "version": 3,
+    "version": 4,
     "source": "http://www.ibiquge.net",
     "regexp": "(www.|m.)?ibiquge.net/\\d+_\\d+/?$",
-    "description": "Đọc truyện trên trang ibiquge.net",
+    "description": "ibiquge.ifo ==> ibiquge.net",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
