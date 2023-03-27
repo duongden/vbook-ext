@@ -1,5 +1,5 @@
 function execute(key, page) {
-    let response = fetch('https://www.ibiquge.info/search.html?name=' + key);
+    let response = fetch('https://www.ibiquge.net/search.html?name=' + key);
     if (response.ok) {
         let doc = response.html();
         const data = [];

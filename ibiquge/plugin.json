@@ -2,7 +2,7 @@
   "metadata": {
     "name": "爱笔楼 - ibiquge.net",
     "author": "Moleys",
-    "version": 2,
+    "version": 3,
     "source": "http://www.ibiquge.net",
     "regexp": "(www.|m.)?ibiquge.net/\\d+_\\d+/?$",
     "description": "Đọc truyện trên trang ibiquge.net",
