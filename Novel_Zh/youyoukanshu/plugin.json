@@ -2,9 +2,9 @@
   "metadata": {
     "name": "youyoukanshu",
     "author": "Đường đen",
-    "version": 3,
+    "version": 4,
     "source": "https://www.youyoukanshu.com",
-    "regexp": "https://?(www.|m.)youyoukanshu.com/book/(.*?)(/?|\\.html)",
+    "regexp": "https://?(www.|m.)youyoukanshu.com/book/\\d+.html",
     "description": "Đọc truyện trên trang https://www.youyoukanshu.com",
     "locale": "zh_CN",
     "language": "javascript",
