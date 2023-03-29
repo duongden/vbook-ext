@@ -6,17 +6,24 @@ function execute(url) {
     if (response.ok) {
         console.log("blacktea");
         let doc = response.html();
-        let coverImg = doc.select(".img img").first().attr("src");
+
+        let coverImg = doc.select('meta[property="og:image"]').attr("content");
+        let novelTitle = doc.select('meta[property="og:title"]').attr("content");
+        let newChap = doc.select('meta[property="og:novel:latest_chapter_name"]').attr("content");
+        let author = doc.select('meta[property="og:novel:author"]').attr("content");
+        let novelCategory = doc.select('meta[property="og:novel:category"]').attr("content");
+        let updateTime = doc.select('meta[property="og:novel:update_time"]').attr("content").replace(/\d\d:\d\d/g, "");
+        let status = doc.select('meta[property="og:novel:status"]').attr("content");
+
         if (coverImg.startsWith("/")) {
             coverImg = "http://www.biquge.la" + coverImg;
         }
-        let author = doc.select(".info p.author").first().text().replace(/作\s*者：/g, "");
         return Response.success({
-            name: doc.select("h2.name").text(),
+            name: novelTitle,
             cover: coverImg,
             author: author,
-            description: doc.select(".book-intro").text(),
-            detail: "作者：" + author + "<br>" + doc.select(".info p.type").text() + "<br>" + doc.select(".info p.time").text(),
+            description: "Thể loại: " + novelCategory + '<br>' + "Tình trạng: " + status + '<br>' + "Mới nhất: " + newChap  + '<br>' + "Thời gian cập nhật: " + updateTime + '<br>' + doc.select(".book-intro").html(),
+            detail: "Tác giả: " + author,
             host: "http://www.biquge.la"
         });
     }
