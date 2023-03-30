@@ -272,11 +272,10 @@
       "name": "novely_us",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novely_us/plugin.zip",
-      "version": 2,
+      "version": 1,
       "source": "https://novely.us/",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novely_us/icon.png",
       "description": "Read novels on https://novely.us/",
-      "type": "novel",
       "locale": "en_US"
     }  
   ]
