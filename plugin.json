@@ -277,7 +277,7 @@
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novely_us/icon.png",
       "description": "Read novels on https://novely.us/",
       "type": "chinese_novel",
-      "locale": "zh_CN"
+      "locale": "en_US"
     }  
   ]
 }
