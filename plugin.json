@@ -267,6 +267,17 @@
       "description": "Đọc truyện trên trang https://www.bookbens.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    }
+    },
+    {
+      "name": "novely_us",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novely_us/plugin.zip",
+      "version": 1,
+      "source": "https://novely.us/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novely_us/icon.png",
+      "description": "Read novels on https://novely.us/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    }  
   ]
 }
