@@ -269,7 +269,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "novely_us",
+      "name": "novely.us",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novely_us/plugin.zip",
       "version": 1,
