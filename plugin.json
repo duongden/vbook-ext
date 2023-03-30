@@ -269,12 +269,12 @@
       "locale": "zh_CN"
     },
     {
-      "name": "novely.us",
+      "name": "novely",
       "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/EnglishNovel/novely_us/plugin.zip",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/EnglishNovel/novely/plugin.zip",
       "version": 1,
       "source": "https://novely.us/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/EnglishNovel/novely_us/icon.png",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/EnglishNovel/novely/icon.png",
       "description": "Read novels on https://novely.us/",
       "type": "novel", 
       "locale": "en_US"
