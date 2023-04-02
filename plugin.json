@@ -278,6 +278,39 @@
       "description": "Read novels on https://novely.us/",
       "type": "novel", 
       "locale": "en_US"
+    },
+    {
+      "name": "ijjxsw.cc",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-cc/plugin.zip",
+      "version": 1,
+      "source": "http://www.ijjxsw.cc/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-cc/icon.png",
+      "description": "Đọc truyện trên trang http://www.ijjxsw.cc/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "ijjxsw.net",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-net/plugin.zip",
+      "version": 1,
+      "source": "http://www.ijjjxs.net/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-net/icon.png",
+      "description": "Đọc truyện trên trang http://www.ijjjxs.net/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "ddyueshu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ddyueshu/plugin.zip",
+      "version": 1,
+      "source": "http://www.ddyueshu.com/",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ddyueshu/icon.png",
+      "description": "Đọc truyện trên trang http://www.ddyueshu.com/",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }  
   ]
 }
