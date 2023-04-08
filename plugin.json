@@ -333,6 +333,28 @@
       "description": "Đọc truyện trên trang https://www.kygnew.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "dubuxiaoshuo",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/dubuxiaoshuo/plugin.zip",
+      "version": 1,
+      "source": "http://www.dubuxiaoshuo.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/dubuxiaoshuo/icon.png",
+      "description": "Đọc truyện trên trang http://www.dubuxiaoshuo.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "laidudu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/laidudu/plugin.zip",
+      "version": 1,
+      "source": "https://www.laidudu.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/laidudu/icon.png",
+      "description": "Đọc truyện trên trang https://www.laidudu.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
