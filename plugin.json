@@ -5,17 +5,6 @@
   },
   "data": [
     {
-      "name": "久久小说下载网-ijjxsw.co",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-co/plugin.zip",
-      "version": 4,
-      "source": "https://www.ijjxsw.co",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-co/icon.png",
-      "description": "Đọc truyện trên trang https://www.ijjxsw.co",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "69书吧-69Shu",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/69shu-org/plugin.zip",
