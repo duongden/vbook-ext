@@ -333,28 +333,6 @@
       "description": "Đọc truyện trên trang https://www.kygnew.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "juhaowan2",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/juhaowan2/plugin.zip",
-      "version": 1,
-      "source": "http://wd.juhaowan.club",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/juhaowan2/icon.png",
-      "description": "Đọc truyện trên trang http://wd.juhaowan.club",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "juhaowan1",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/juhaowan1/plugin.zip",
-      "version": 1,
-      "source": "http://www.juhaowan.club",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/juhaowan1/icon.png",
-      "description": "Đọc truyện trên trang http://www.juhaowan.club",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
     }
   ]
 }
