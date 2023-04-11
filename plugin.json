@@ -265,7 +265,7 @@
       "source": "https://novely.us/",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/EnglishNovel/novely/icon.png",
       "description": "Read novels on https://novely.us/",
-      "type": "novel", 
+      "type": "novel",
       "locale": "en_US"
     },
     {
@@ -342,6 +342,17 @@
       "source": "https://www.laidudu.org",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/laidudu/icon.png",
       "description": "Đọc truyện trên trang https://www.laidudu.org",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
+      "name": "9biqu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/9biqu/plugin.zip",
+      "version": 1,
+      "source": "https://www.9biqu.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/9biqu/icon.png",
+      "description": "Đọc truyện trên trang https://www.9biqu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     }
