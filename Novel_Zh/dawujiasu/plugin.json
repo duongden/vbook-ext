@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "dawujiasu",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.dawujiasu.com",
+    "regexp": "(www.|m.)?dawujiasu.com/\\d+/\\d+/?$",
+    "description": "Đọc truyện trên trang https://www.dawujiasu.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
