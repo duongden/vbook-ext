@@ -1,0 +1,1 @@
+const BASE_URL = 'https://www.bifengzw.com';

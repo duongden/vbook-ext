@@ -107,10 +107,10 @@
       "name": "东流小说 - dongliuxiaoshuo",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/dongliuxiaoshuo/plugin.zip",
-      "version": 4,
-      "source": "https://www.dongliuxiaoshuo.com",
+      "version": 5,
+      "source": "https://www.bifengzw.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/dongliuxiaoshuo/icon.png",
-      "description": "Đọc truyện trên trang https://www.dongliuxiaoshuo.com",
+      "description": "Đọc truyện trên trang https://www.bifengzw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
