@@ -9,9 +9,9 @@ function execute(url) {
         return Response.success({
             name: doc.select("div.media-body h1").text(),
             cover: coverImg,
-            host: "https://novely.us/",
+            host: "https://novely.info/",
             author: author,
-            description: "Tag: " + category + '<br>' + "Status: " + doc.select("div.story-stage.mb-3 > p").text().replace("(","").replace(")","") + '<br>' + doc.select("div.media-body > p:nth-child(5)").text() + '<br>' + doc.select("div.media-body > p:nth-child(7)").text() + '<br>' + doc.select(".para").text(), 
+            description: "Tag: " + category + '<br>' + "Status: " + doc.select("div.story-stage.mb-3 > p").text().replace("(","").replace(")","") + '<br>' + doc.select("div.media-body > p:nth-child(5)").text() + '<br>' + doc.select("div.media-body > p:nth-child(7)").text() + '<br>' + doc.select(".para").text(),
             detail: "Author: " + author,
         });
     }

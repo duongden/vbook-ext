@@ -2,9 +2,9 @@
   "metadata": {
     "name": "novely",
     "author": "Đường đen",
-    "version": 1,
-    "source": "https://novely.us/",
-    "regexp": "https://novely.us/(.+)--(.+)",
+    "version": 2,
+    "source": "https://novely.info/",
+    "regexp": "https://novely.info/(.+)--(.+)",
     "description": "Read novel https://novely.us/",
     "locale": "en-US",
     "type": "novel",

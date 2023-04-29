@@ -9,7 +9,7 @@ function execute(url) {
         doc.select("#tab-b1 div.chapters ul li a").forEach(e => list.push({
                 name: e.select("a span").text(),
                 url: e.attr("href").trim(),
-                host: "https://novely.us/"
+                host: "https://novely.info/"
         }));
         return Response.success(list);
 

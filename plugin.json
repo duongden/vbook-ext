@@ -377,6 +377,17 @@
       "description": "Đọc truyện trên trang https://tinhlinh.com",
       "locale": "vi_VN",
       "type": "comic"
+    },
+    {
+      "name": "Novely",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novely/plugin.zip",
+      "version": 2,
+      "source": "https://novely.us",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/novely/icon.png",
+      "description": "Đọc truyện trên trang https://novely.us",
+      "locale": "en_US",
+      "type": "novel"
     }
   ]
 }

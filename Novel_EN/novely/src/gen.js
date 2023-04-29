@@ -18,7 +18,7 @@ function execute(url, page) {
                 link: e.select(".media-heading a").first().attr("href"),
                 cover: e.select(".story-thumb img.media-object").attr("src"),
                 description: e.select("div.media-body > p:nth-child(3) > a").text(),
-                host: "https://novely.us/"
+                host: "https://novely.info/"
             })
         }
         return Response.success(data, next)
