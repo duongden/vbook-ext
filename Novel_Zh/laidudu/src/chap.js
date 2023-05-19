@@ -3,13 +3,13 @@ function execute(url) {
     if (response.ok) {
         let doc = response.html();
         doc.select("#content_tip").remove();
-        
+
         let htm = doc.select("#content").html();
 
         htm = cleanHtml(htm).replace(/<a[^>]*>([^<]+)<\/a>/g, '')
             .replace(/<\/?p>/g, "")
             .replace(/&(nbsp|amp|quot|lt|gt);/g, "")
-            .replace("请记住本书首发域名：www.laidudu.org。来读读小说手机版阅读网址：m.laidudu.org", "");
+            .replace("请记住本书首发域名：www.xlaidudu.net。来读读小说手机版阅读网址：m.xlaidudu.net", "");
         return Response.success(htm);
     }
     return null;

@@ -1,7 +1,7 @@
 function execute(url) {
-	url = url.replace('m.laidudu.org', 'www.laidudu.org');
-    let response = fetch("https://www.laidudu.org" + url);
-    console.log("https://www.laidudu.org" + url)
+	url = url.replace('m.xlaidudu.net', 'www.xlaidudu.net');
+    let response = fetch("https://www.xlaidudu.net" + url);
+    console.log("https://www.xlaidudu.net" + url)
     if (response.ok) {
         let doc = response.html();
         const data = [];
@@ -11,7 +11,7 @@ function execute(url) {
                 name: e.select(".s2 a").first().text(),
                 link: e.select(".s2 a").first().attr("href"),
                 description: e.select(".s3 a").first().text(),
-                host: "https://www.laidudu.org"
+                host: "https://www.xlaidudu.net"
             })
         });
 

@@ -1,9 +1,9 @@
 function execute(url, page) {
     if (!page) page = '1';
 
-    let response = fetch("https://www.laidudu.org" + url + page + ".html");
+    let response = fetch("https://www.xlaidudu.net" + url + page + ".html");
 
-    console.log("https://www.laidudu.org" + url + page + ".html")
+    console.log("https://www.xlaidudu.net" + url + page + ".html")
 
     if (response.ok) {
         let doc = response.html();
@@ -12,9 +12,9 @@ function execute(url, page) {
         doc.select(".l li").forEach(e => {
             data.push({
                 name: e.select(".s2 a").first().text(),
-                link: "https://www.laidudu.org" + e.select(".s2 a").first().attr("href"),
+                link: "https://www.xlaidudu.net" + e.select(".s2 a").first().attr("href"),
                 description: e.select(".s3 a").first().text(),
-                host: "https://www.laidudu.org"
+                host: "https://www.xlaidudu.net"
             })
         });
         return Response.success(data, next)

@@ -2,10 +2,10 @@
   "metadata": {
     "name": "laidudu",
     "author": "Đường đen",
-    "version": 1,
-    "source": "https://www.laidudu.org/",
-    "regexp": "(www.|m.)?laidudu.org/book/\\d+/?$",
-    "description": "Đọc truyện trên trang https://www.laidudu.org/",
+    "version": 2,
+    "source": "https://www.xlaidudu.net/",
+    "regexp": "(www.|m.)?xlaidudu.net/book/\\d+/?$",
+    "description": "Đọc truyện trên trang https://www.xlaidudu.net/",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

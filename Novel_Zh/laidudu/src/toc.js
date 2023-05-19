@@ -1,5 +1,5 @@
 function execute(url) {
-    url = url.replace('m.laidudu.org', 'www.laidudu.org');
+    url = url.replace('m.xlaidudu.net', 'www.xlaidudu.net');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -9,8 +9,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url: "https://www.laidudu.org" + e.attr("href"),
-                host: "https://www.laidudu.org"
+                url: "https://www.xlaidudu.net" + e.attr("href"),
+                host: "https://www.xlaidudu.net"
             })
         }
         return Response.success(data);

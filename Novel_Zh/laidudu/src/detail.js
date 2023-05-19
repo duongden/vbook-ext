@@ -1,5 +1,5 @@
 function execute(url) {
-    url = url.replace('m.laidudu.org', 'www.laidudu.org');
+    url = url.replace('m.xlaidudu.net', 'www.xlaidudu.net');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html()
@@ -19,7 +19,7 @@ function execute(url) {
             author: author,
             description: "Thể loại: " + category + '<br>' + "Tình trạng: " + status + '<br>' + "Mới nhất: " + newChap + '<br>' + "Thời gian cập nhật: " + updateTime + '<br>' + descriptionMeta,
             detail: "Tác giả: " + author,
-            host: "https://www.laidudu.org"
+            host: "https://www.xlaidudu.net"
         });
     }
     return null;
