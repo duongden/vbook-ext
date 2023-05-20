@@ -2,7 +2,7 @@
   "metadata": {
     "name": "dubuxiaoshuo",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "http://www.dubuxiaoshuo.com/",
     "regexp": "(www.|m.)?dubuxiaoshuo.com/book/.*?$",
     "description": "Đọc truyện trên trang http://www.dubuxiaoshuo.com/",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }

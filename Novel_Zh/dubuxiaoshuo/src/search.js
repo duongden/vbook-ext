@@ -1,22 +1,22 @@
 function execute(key, page) {
-    let response = fetch('https://www.ddyueshu.com/search', {
+    let response = fetch('http://www.dubuxiaoshuo.com/plus/search.php?q=', {
         method: "GET",
         queries: {
-            keyword: key,
+            q: key,
             //mysearch
         }
     });
 
     if (response.ok) {
-        let doc = response.html('gbk');
+        let doc = response.html();
         const data = [];
-        //#search-main > div.search-list > ul > li:nth-child(2)
-        doc.select("div.search-list > ul > li:nth-child(2)").forEach(e => {
+//body > div:nth-child(3) > div > div.panel-body > table > tbody > tr:nth-child(1) > td:nth-child(1)
+        doc.select("tbody tr").forEach(e => {
             data.push({
-                name: e.select(".s2 a").first().text(),
-                link: e.select(".s2 a").first().attr("href"),
-                description: e.select(".s4").first().text().replace(/\//g, "").trim(),
-                host: "https://www.ddyueshu.com"
+                name: e.select(".orange").first().text(),
+                link: e.select(".orange").first().attr("href"),
+                description: e.select("td:nth-child(2)").first().text(),
+                host: "http://www.dubuxiaoshuo.com"
             })
         });
 
