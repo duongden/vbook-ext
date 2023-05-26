@@ -140,10 +140,10 @@
       "name": "书趣阁-ishuquge",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ishuquge/plugin.zip",
-      "version": 3,
-      "source": "https://www.ishuquge.org",
+      "version": 4,
+      "source": "https://www.ishuquge.la",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ishuquge/icon.png",
-      "description": "Đọc truyện trên trang https://www.ishuquge.org",
+      "description": "Đọc truyện trên trang https://www.ishuquge.la",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
