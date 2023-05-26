@@ -9,7 +9,7 @@ function execute(url) {
             description: doc.select(".bookintro").text(),
             detail: doc.select(".booktag a").first().text()+'<br>'+doc.select(".booktag span").last().text(),
             ongoing : doc.select(".booktag").html().indexOf("连载") != -1,
-            host: "https://www.oldtimesxs.cc"
+            host: "https://www.oldtimescc.com"
         });
     }
     return null;

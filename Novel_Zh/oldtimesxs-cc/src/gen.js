@@ -1,8 +1,8 @@
 load('libs.js');
 function execute(url, page) {
-    let host = 'https://www.oldtimesxs.cc';
+    let host = 'https://www.oldtimescc.com';
     if(!page) page = '1';
-    let response = fetch('https://www.oldtimesxs.cc/'+url+'-'+page+'.html');
+    let response = fetch('https://www.oldtimescc.com/'+url+'-'+page+'.html');
     if (response.ok) {
         let doc = response.html('gbk');
         let next = doc.select("#pagelink").select("li.active + li").text();
@@ -16,9 +16,9 @@ function execute(url, page) {
             data.push({
                 name: box.select("h4 a").first().text(),
                 link: link,
-                cover: cover || 'https://www.oldtimesxs.cc/modules/article/images/nocover.jpg',
+                cover: cover || 'https://www.oldtimescc.com/modules/article/images/nocover.jpg',
                 description: box.select(".author").first().text().replace('作者：',''),
-                host: 'https://www.oldtimesxs.cc',
+                host: 'https://www.oldtimescc.com',
             })
         });
         return Response.success(data,next)

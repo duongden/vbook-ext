@@ -2,10 +2,10 @@
   "metadata": {
     "name": "旧时光文学-oldtimesxs.cc",
     "author": "Đường đen",
-    "version": 1,
-    "source": "https://www.oldtimesxs.cc",
-    "regexp": "(www.)?oldtimesxs.cc/go/\\d+/?",
-    "description": "Đọc truyện trên trang oldtimesxs.cc",
+    "version": 2,
+    "source": "https://www.oldtimescc.com",
+    "regexp": "(www.)?oldtimescc.com/go/\\d+/?",
+    "description": "Đọc truyện trên trang oldtimescc.com",
     "locale": "zh-CN",
     "language": "javascript",
     "type": "chinese_novel"

@@ -19,10 +19,10 @@
       "name": "旧时光文学-oldtimesxs-cc",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/oldtimesxs-cc/plugin.zip",
-      "version": 1,
-      "source": "https://www.oldtimesxs.cc",
+      "version": 2,
+      "source": "https://www.oldtimescc.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/oldtimesxs-cc/icon.png",
-      "description": "Đọc truyện trên trang https://www.oldtimesxs.cc",
+      "description": "Đọc truyện trên trang https://www.oldtimescc.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },

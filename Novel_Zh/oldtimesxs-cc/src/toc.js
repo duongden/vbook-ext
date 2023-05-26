@@ -6,7 +6,7 @@ function execute(url) {
         doc.select("#list-chapterAll a").forEach(e => data.push({
             name: e.text(),
             url: url+'/'+e.attr('href'),
-            host: "https://www.oldtimesxs.cc"
+            host: "https://www.oldtimescc.com"
         }));
         return Response.success(data);
     }
