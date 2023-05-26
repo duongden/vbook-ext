@@ -85,10 +85,10 @@
       "name": "香书小说 - ibiquge.la",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge-la/plugin.zip",
-      "version": 1,
-      "source": "https://www.ibiquge.la",
+      "version": 3,
+      "source": "https://www.ibiquges.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge-la/icon.png",
-      "description": "Đọc truyện trên trang https://www.ibiquge.la",
+      "description": "Đọc truyện trên trang https://www.ibiquges.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },

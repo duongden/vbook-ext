@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "香书小说 - ibiquge.la",
+    "author": "Đường đen",
+    "version": 3,
+    "source": "https://www.ibiquges.com",
+    "regexp": "(www.|m.)?ibiquges.com/\\d+/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang https://www.ibiquges.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
