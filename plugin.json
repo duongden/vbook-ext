@@ -399,17 +399,6 @@
       "description": "Đọc truyện trên trang https://www.shuhai.vip",
       "type": "chinese_novel",
       "locale": "zh_CN"
-    },
-    {
-      "name": "xsyz.cc",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/xsyz/plugin.zip",
-      "version": 1,
-      "source": "https://www.xsyz.cc",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/xsyz/icon.png",
-      "description": "Đọc truyện trên trang https://www.xsyz.cc",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
     }
   ]
 }
