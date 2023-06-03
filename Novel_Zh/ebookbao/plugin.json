@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "ebookbao",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://wap.ebookbao.org",
+    "regexp": "https://wap.ebookbao.org/book/\\d+/",
+    "description": "Đọc truyện trên trang https://wap.ebookbao.org/",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "genre": "genre.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
