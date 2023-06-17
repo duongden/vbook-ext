@@ -1,7 +1,7 @@
 function execute(url, page) {
     if(url.slice(-1) === "/")
         url = url.slice(0, -1)
-	url = url.replace('m.17bxwx.com', 'www.17bxwx.com');
+	url = url.replace('m.112378.com', 'www.112378.com');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -12,7 +12,7 @@ function execute(url, page) {
                 name: e.select(".s2 a").first().text(),
                 link: e.select(".s2 a").first().attr("href"),
                 description: e.select(".s3 a").first().text(),
-                host: "https://www.17bxwx.com"
+                host: "https://www.112378.com"
             })
         }); 
         return Response.success(data)

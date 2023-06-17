@@ -173,7 +173,7 @@
       "name": "112738",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/112738/plugin.zip",
-      "version": 4,
+      "version": 5,
       "source": "https://www.112738.com/",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/112738/icon.png",
       "description": "Đọc truyện trên trang https://www.112738.com/",
@@ -254,17 +254,6 @@
       "source": "http://www.ddyueshu.com/",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ddyueshu/icon.png",
       "description": "Đọc truyện trên trang http://www.ddyueshu.com/",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "17bxwx",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/17bxwx/plugin.zip",
-      "version": 1,
-      "source": "https://www.17bxwx.com/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/17bxwx/icon.png",
-      "description": "Đọc truyện trên trang https://www.17bxwx.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },

@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "name": "17bxwx",
+    "name": "112378",
     "author": "Đường đen",
-    "version": 1,
-    "source": "https://www.17bxwx.com/",
-    "regexp": "(www.|m.)?17bxwx.com/dir/\\d+/\\d+\\.htm",
-    "description": "Đọc truyện trên trang https://www.17bxwx.com/",
+    "version": 5,
+    "source": "https://www.112378.com",
+    "regexp": "www.112378.com/(book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang https://www.112378.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
   },
   "script": {
     "home": "home.js",
-    "genre": "genre.js",
     "detail": "detail.js",
     "toc": "toc.js",
+    "genre": "genre.js",
     "chap": "chap.js"
   }
 }
