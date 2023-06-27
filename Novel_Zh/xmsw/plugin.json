@@ -2,7 +2,7 @@
   "metadata": {
     "name": "xmsw [轩墨书屋]",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "http://www.xmsw.cc",
     "regexp": "(www.)?xmsw.cc/go/\\d+/?",
     "description": "xmsw.cc",
