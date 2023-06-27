@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "qimaozw",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.qimaozw.com",
+    "regexp": "(www.|m.)?qimaozw.com/book/.*?$",
+    "description": "Đọc truyện trên trang qimaozw",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "genre": "genre.js",
+    "chap": "chap.js"
+  }
+}
