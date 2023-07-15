@@ -410,6 +410,17 @@
       "description": "Đọc truyện trên trang zrfsxs.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "wcxs5",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/wcxs5/plugin.zip",
+      "version": 1,
+      "source": "https://www.wcxs5.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/wcxs5/icon.png",
+      "description": "Đọc truyện trên trang wcxs5.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
