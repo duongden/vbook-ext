@@ -399,6 +399,17 @@
       "description": "Đọc truyện trên trang gxtongren.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "zrfsxs",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/zrfsxs/plugin.zip",
+      "version": 1,
+      "source": "https://www.zrfsxs.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/zrfsxs/icon.png",
+      "description": "Đọc truyện trên trang zrfsxs.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
