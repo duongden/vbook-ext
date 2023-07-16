@@ -1,5 +1,7 @@
+load('config.js');
+
 function execute(url) {
-    url = url.replace('m.112378.com', 'www.112378.com');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url);
     if (response.ok) {
 
@@ -11,19 +13,19 @@ function execute(url) {
         let newChap = doc.select('meta[property="og:novel:latest_chapter_name"]').attr("content");
         let author = doc.select('meta[property="og:novel:author"]').attr("content");
         let category = doc.select('meta[property="og:novel:category"]').attr("content");
-        let updateTime = doc.select('meta[property="og:novel:update_time"]').attr("content").replace(/\d\d:\d\d:\d\d/g, "");     
+        let updateTime = doc.select('meta[property="og:novel:update_time"]').attr("content").replace(/\d\d:\d\d:\d\d/g, "");
 
         if (coverImg.startsWith("/")) {
-            coverImg = "https://www.112378.com" + coverImg;
+            coverImg = BASE_URL + coverImg;
         }
 
         return Response.success({
             name: title,
             cover: coverImg,
-            author: author,
-            description: ("Thể loại: ") + category + '<br>' + "Tình trạng: " + status + '<br>' + "Mới nhất: " + newChap  + '<br>' + "Thời gian cập nhật: " + updateTime + '<br>' + descriptionMeta,
-            detail: "Tác giả：" + author,
-            host: "https://www.112378.com"
+            author: "Tác giả: " + author,
+            description: descriptionMeta,
+            detail: ("Thể loại: ") + category + '<br>' + "Tình trạng: " + status + '<br>' + "Mới nhất: " + newChap  + '<br>' + "Thời gian cập nhật: " + updateTime,
+            host: BASE_URL
         });
     }
     return null;

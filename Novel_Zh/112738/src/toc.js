@@ -1,5 +1,6 @@
+load('config.js');
 function execute(url) {
-	url = url.replace('m.112378.com', 'www.112378.com');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     url = url.replace("book","indexlist").replace(".html","/")
     let response1 = fetch(url);
     const data = [];
@@ -7,7 +8,7 @@ function execute(url) {
         let doc1 = response1.html();
         let elr1 = doc1.select("#indexselect").first().select("option");
         elr1.forEach((element) => {
-            let url1 = "https://www.112378.com" + element.attr("value");
+            let url1 = BASE_URL + element.attr("value");
 
             let response2 = fetch(url1);
             if (response2.ok) {
@@ -17,8 +18,8 @@ function execute(url) {
                     var e = el1.get(i);
                     data.push({
                         name: e.select("a").text(),
-                        url:"http://www.112378.com" + e.attr("href"),
-                        host: "http://www.112378.com"
+                        url: BASE_URL + e.attr("href"),
+                        host: BASE_URL
                     })
                 }
             }

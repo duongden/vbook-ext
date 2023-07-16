@@ -1,6 +1,7 @@
+load('config.js');
 function execute(url, page) {
 if(!page) page = '1';
-	url = url.replace('m.112378.com', 'www.112378.com');
+url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url + page + "/");
     if (response.ok) {
         let doc = response.html();
@@ -10,9 +11,9 @@ if(!page) page = '1';
 		doc.select("#newscontent .l li").forEach(e => {
             data.push({
                 name: e.select(".s2 a").first().text().replace("《","").replace("》",""),
-                link: "http://www.112378.com" + e.select(".s2 a").attr("href"),
+                link: BASE_URL + e.select(".s2 a").attr("href"),
                 description: e.select(".s3 a").text(),
-                host: "http://www.112378.com"
+                host: BASE_URL
             })
         });
         var next = (parseInt(page)+1).toString();

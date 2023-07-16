@@ -11,9 +11,9 @@ function execute(url) {
         return Response.success({
             name: doc.select(".title").text(),
             cover: coverImg,
-            author: author,
-            detail: "Tác giả: " + author,
-            description: doc.select("li.sort").text() + "<br>" + doc.select("#book_detail > li:nth-child(3)").text() + "<br>" + doc.select("#book_detail > li:nth-child(4)").text().replace(/\d\d:\d\d:\d\d/g, "") + "<br>" + doc.select(".review").text(),
+            author: "Tác giả: " + author,
+            detail: doc.select("li.sort").text() + "<br>" + doc.select("#book_detail > li:nth-child(3)").text() + "<br>" + doc.select("#book_detail > li:nth-child(4)").text().replace(/\d\d:\d\d:\d\d/g, ""),
+            description: doc.select(".review").text(),
             host: "https://m.58160.net"
         });
     }

@@ -1,5 +1,6 @@
+load('config.js');
 function execute(key, page) {
-    let response = fetch('https://www.112378.com/searchb6.html', {
+    let response = fetch(BASE_URL + '/searchb6.html', {
         method: "GET",
         queries: {
             keyword: key,
@@ -17,7 +18,7 @@ function execute(key, page) {
                 link: e.select("dl dt a").first().attr("href"),
                 cover: e.select(".image a img").attr("data-original"),
                 description: e.select(".btm").first().text().replace(/\//g, "").trim(),
-                host: "https://www.112378.com"
+                host: BASE_URL
             })
         });
 

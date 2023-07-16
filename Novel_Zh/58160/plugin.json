@@ -2,7 +2,7 @@
   "metadata": {
     "name": "58160",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "https://m.58160.net",
     "regexp": "https://m.58160.net/book/\\d+/",
     "description": "Đọc truyện trên trang https://m.58160.net",

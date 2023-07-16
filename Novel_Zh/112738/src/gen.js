@@ -1,8 +1,9 @@
+load('config.js');
 function execute(url, page) {
     if(url.slice(-1) === "/")
         url = url.slice(0, -1)
-	url = url.replace('m.112378.com', 'www.112378.com');
-    let response = fetch(url);
+        url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    let response = fetch(BASE_URL + url);
     if (response.ok) {
         let doc = response.html();
         const data = [];
@@ -12,9 +13,9 @@ function execute(url, page) {
                 name: e.select(".s2 a").first().text(),
                 link: e.select(".s2 a").first().attr("href"),
                 description: e.select(".s3 a").first().text(),
-                host: "https://www.112378.com"
+                host: BASE_URL
             })
-        }); 
+        });
         return Response.success(data)
     }
     return null;

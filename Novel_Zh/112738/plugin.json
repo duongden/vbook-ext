@@ -2,10 +2,10 @@
   "metadata": {
     "name": "112378",
     "author": "Đường đen",
-    "version": 5,
-    "source": "https://www.112378.com",
-    "regexp": "www.112378.com/(book)/\\d+(/?|\\.html)",
-    "description": "Đọc truyện trên trang https://www.112378.com",
+    "version": 6,
+    "source": "https://www.teicc.com",
+    "regexp": "www.teicc.com/(book)/\\d+(/?|\\.html)",
+    "description": "Đọc truyện trên trang https://www.teicc.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
