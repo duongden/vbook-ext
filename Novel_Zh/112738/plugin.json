@@ -2,7 +2,7 @@
   "metadata": {
     "name": "112378",
     "author": "Đường đen",
-    "version": 6,
+    "version": 8,
     "source": "https://www.teicc.com",
     "regexp": "www.teicc.com/(book)/\\d+(/?|\\.html)",
     "description": "Đọc truyện trên trang https://www.teicc.com",
@@ -14,6 +14,7 @@
     "home": "home.js",
     "detail": "detail.js",
     "toc": "toc.js",
+    "search": "search.js",
     "genre": "genre.js",
     "chap": "chap.js"
   }
