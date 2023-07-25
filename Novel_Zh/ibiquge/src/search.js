@@ -1,5 +1,5 @@
 function execute(key) {
-    let response = fetch('https://www.ibiquge.info/search.html?name=' + key);
+    let response = fetch('https://www.ibiquzw.com/search.html?name=' + key);
     if (response.ok) {
         let doc = response.html();
         const data = [];
@@ -7,9 +7,9 @@ function execute(key) {
             if (e.select("a").first().text() !== null && e.select("a").first().text() !== '') {
                 data.push({
                     name: e.select("a").first().text(),
-                    link: "https://www.ibiquge.info" + e.select("a").first().attr("href"),
+                    link: "https://www.ibiquzw.com" + e.select("a").first().attr("href"),
                     description: e.select(".s3 a").first().text(),
-                    host: "https://www.ibiquge.info"
+                    host: "https://www.ibiquzw.com"
                 })
             }
         });

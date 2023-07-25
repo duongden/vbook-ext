@@ -349,10 +349,10 @@
       "name": "爱笔楼-ibiquge.net",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge/plugin.zip",
-      "version": 7,
-      "source": "https://www.ibiquge.info",
+      "version": 8,
+      "source": "https://www.ibiquzw.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge/icon.png",
-      "description": "Đọc truyện trên trang ibiquge.info",
+      "description": "Đọc truyện trên trang ibiquzw.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },

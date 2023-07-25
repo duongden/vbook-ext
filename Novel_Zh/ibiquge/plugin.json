@@ -2,10 +2,10 @@
   "metadata": {
     "name": "爱笔楼-ibiquge.net",
     "author": "Moleys",
-    "version": 7,
-    "source": "https://www.ibiquge.info",
-    "regexp": "(www.)?ibiquge.info/\\d+_\\d+/?$",
-    "description": "ibiquge.info",
+    "version": 8,
+    "source": "https://www.ibiquzw.com",
+    "regexp": "(www.)?ibiquzw.com/\\d+_\\d+/?$",
+    "description": "ibiquzw.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"
