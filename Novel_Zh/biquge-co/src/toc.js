@@ -19,7 +19,7 @@ function execute(url) {
     elems.forEach(function (e) {
         data.push({
             name: $.Q(e, 'a').text(),
-            url: e.attr('href').mayBeFillHost(url), // Important
+            url: e.attr('href'), // Important
             host: host
         })
     })
