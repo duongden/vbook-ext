@@ -1,10 +1,9 @@
 load('config.js');
 function execute(url, page) {
-    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     if (!page) page = '1';
     const doc = Http.get(BASE_URL + "/" + url + "_" + page + "/").html();
 
-    var next = doc.select("#pagelink").select("a.next").attr('href').split('_')[1].replace('/','');
+    var next = doc.select("#pagelink").select("a.next").attr('href').split('_')[1];
 
     const el = doc.select(".section-cols ul li")
 
