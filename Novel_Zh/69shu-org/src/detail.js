@@ -1,4 +1,6 @@
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);  
     const doc = Http.get(url).html();
 
     let coverImg = doc.select('meta[property="og:image"]').attr("content");
@@ -16,6 +18,6 @@ function execute(url) {
         author: "Tác giả: " + author,
         description: doc.select(".bookinfo_intro").html(),
         detail: ("Thể loại: ") + novelCategory + '<br>' + "Tình trạng: " + status + '<br>' + "Mới nhất: " + newChap  + '<br>' + "Thời gian cập nhật: " + updateTime,
-        host: "https://www.69shu.org"
+        host: BASE_URL
     });
 }

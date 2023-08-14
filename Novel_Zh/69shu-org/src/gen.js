@@ -1,6 +1,8 @@
+load('config.js');
 function execute(url, page) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     if (!page) page = '1';
-    const doc = Http.get("https://www.69shu.org/"+url+"_"+page+"/").html();
+    const doc = Http.get(BASE_URL + "/" + url + "_" + page + "/").html();
 
     var next = doc.select("#pagelink").select("a.next").attr('href').split('_')[1].replace('/','');
 
@@ -14,9 +16,9 @@ function execute(url, page) {
         data.push({
             name: e.select(".s2 a").first().text(),
             link: e.select(".s2 a").first().attr("href"),
-            cover: 'https://www.69shu.org/files/article/image/'+fol+'/'+booKId+'/'+booKId+'s.jpg',
+            cover: BASE_URL + '/files/article/image/'+fol+'/'+booKId+'/'+booKId+'s.jpg',
             description: e.select(".s4").text(),
-            host: "https://www.69shu.org"
+            host: BASE_URL
         })
     }
 
