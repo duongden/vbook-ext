@@ -183,11 +183,11 @@
     {
       "name": "shukw",
       "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/shukw/shukw.zip",
-      "version": 4,
-      "source": "https://www.shukw.com/",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/shukw/plugin.zip",
+      "version": 5,
+      "source": "https://www.shuku99.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/shukw/icon.png",
-      "description": "Đọc truyện trên trang https://www.shukw.com/",
+      "description": "Đọc truyện trên trang shuku99.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
