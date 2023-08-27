@@ -5,15 +5,6 @@
   },
   "data": [
     {
-      "name": "69shu",
-      "author": "hajljnopera",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/69shu/plugin.zip",
-      "version": 5,
-      "source": "https://www.69shuba.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/69shu/icon.png",
-      "description": "Đọc truyện trên trang https://www.69shuba.com"
-    },
-    {
       "name": "69书吧-69Shu",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/69shu-org/plugin.zip",
