@@ -151,10 +151,10 @@
       "name": "9itan",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/9itan/plugin.zip",
-      "version": 3,
-      "source": "https://www.9itan.com/",
+      "version": 5,
+      "source": "https://www.9itans.com/",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/9itan/icon.png",
-      "description": "Đọc truyện trên trang https://www.9itan.com/",
+      "description": "Đọc truyện trên trang https://www.9itans.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
