@@ -410,6 +410,17 @@
       "description": "Đọc truyện trên trang wcxs5.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
+    },
+    {
+      "name": "zinmanga",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_EN/zinmanga/plugin.zip",
+      "version": 1,
+      "source": "https://zinmanga.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_EN/zinmanga/icon.png",
+      "description": "Đọc truyện trên trang zinmanga",
+      "locale": "en_US",
+      "type": "comic"
     }
   ]
 }
