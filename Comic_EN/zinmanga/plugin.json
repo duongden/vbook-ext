@@ -2,7 +2,7 @@
   "metadata": {
     "name": "zinmanga",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "https://zinmanga.com",
     "regexp": "https://zinmanga.com/manga/[0-9a-z-]+/?$",
     "description": "zinmanga",
