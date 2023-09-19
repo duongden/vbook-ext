@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "readlightnovel",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.readlightnovel.me/hub141222",
+    "regexp": "https://www.readlightnovel.me/[0-9a-z-]+/?$",
+    "description": "Đọc truyện trên trang readlightnovel",
+    "locale": "en-US",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

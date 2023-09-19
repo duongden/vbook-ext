@@ -432,6 +432,17 @@
       "description": "Đọc truyện trên trang zinnovel",
       "locale": "en_US",
       "type": "novel"
+    },
+    {
+      "name": "readlightnovel",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/readlightnovel/plugin.zip",
+      "version": 1,
+      "source": "https://zinnovel.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/readlightnovel/icon.png",
+      "description": "Đọc truyện trên trang readlightnovel",
+      "locale": "en_US",
+      "type": "novel"
     }
   ]
 }
