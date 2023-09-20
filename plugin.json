@@ -443,6 +443,17 @@
       "description": "Đọc truyện trên trang readlightnovel",
       "locale": "en_US",
       "type": "novel"
+    },
+    {
+      "name": "ebookbao",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ebookbao/plugin.zip",
+      "version": 2,
+      "source": "https://www.ebookbao1.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ebookbao/icon.png",
+      "description": "Đọc truyện trên trang ebookbao1.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
     }
   ]
 }
