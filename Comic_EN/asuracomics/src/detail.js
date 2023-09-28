@@ -33,7 +33,7 @@ function execute(url) {
                     script: "suggest.js"
                 }
             ],
-            host: "https://asuracomics.com"
+            host: "https://asuracomics.gg"
         });
     }
     return null;

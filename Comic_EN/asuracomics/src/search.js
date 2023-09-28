@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = 1;
-    let response = fetch('https://asuracomics.com/page/' + page + "?s=" + key);
+    let response = fetch('https://asuracomics.gg/page/' + page + "?s=" + key);
 
     if (response.ok) {
         let doc = response.html();
@@ -12,7 +12,7 @@ function execute(key, page) {
                 link: e.select(".bsx a").first().attr("href"),
                 cover: e.select(".limit img.ts-post-image").first().attr("src"),
                 description: "Score: " + e.select(".numscore").first().text(),
-                host: "https://asuracomics.com"
+                host: "https://asuracomics.gg"
             })
         });
         // Extract the next page link and parse it to get the page number

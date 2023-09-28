@@ -12,7 +12,7 @@ function execute(url) {
             chapList.push({
                 name: e.text(),
                 url: e.attr("href"),
-                host: "https://asuracomics.com"
+                host: "https://asuracomics.gg"
             });
         }
         return Response.success(chapList);
