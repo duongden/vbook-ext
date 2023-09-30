@@ -5,7 +5,7 @@ function execute(key, page) {
     if (response.ok) {
         let doc = response.html();
         const data = [];
-        console.log(doc)
+       
 		doc.select(".c-tabs-item__content").forEach(e => {
             data.push({
                 name: e.select(".h4 a").first().text(),
