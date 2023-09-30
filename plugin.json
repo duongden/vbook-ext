@@ -305,10 +305,10 @@
       "name": "Anh Tinh",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_VN/anhtinh/plugin.zip",
-      "version": 1,
-      "source": "https://tinhlinh.com",
+      "version": 2,
+      "source": "https://anhtinh.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_VN/anhtinh/icon.png",
-      "description": "Đọc truyện trên trang https://tinhlinh.com",
+      "description": "Đọc truyện trên trang https://anhtinh.com",
       "locale": "vi_VN",
       "type": "comic"
     },
