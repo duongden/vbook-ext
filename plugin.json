@@ -339,9 +339,9 @@
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge/plugin.zip",
       "version": 9,
-      "source": "https://www.ibiquzw.com",
+      "source": "https://www.ibiquzw.info",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge/icon.png",
-      "description": "Đọc truyện trên trang ibiquzw.com",
+      "description": "Đọc truyện trên trang ibiquzw.info",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
