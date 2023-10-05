@@ -1,5 +1,6 @@
+load('config.js');
 function execute(url) {
-    url = url.replace('m.ibiquzw.com', 'www.ibiquzw.com');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -10,8 +11,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url: "https://www.ibiquzw.com" + e.attr("href"),
-                host: "https://www.ibiquzw.com"
+                url: BASE_URL + e.attr("href"),
+                host: BASE_URL
             })
         }
         return Response.success(data);

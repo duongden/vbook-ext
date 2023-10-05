@@ -1,5 +1,7 @@
+load('config.js');
 function execute(url) {
-    url = url.replace('m.ibiquzw.com', 'www.ibiquzw.com');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    //url = url.replace('m.ibiquzw.com', 'www.ibiquzw.com');
     let response = fetch(url);
 
     if (response.ok) {

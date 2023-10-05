@@ -1,12 +1,13 @@
+load('config.js');
 function execute(url) {
-    url = url.replace('m.ibiquzw.com', 'www.ibiquzw.com');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url);
     if (response.ok) {
 
         let doc = response.html();
         let coverImg = doc.select("#fmimg img").first().attr("src");
         if (coverImg.startsWith("/")) {
-            coverImg = "https://www.ibiquzw.com" + coverImg;
+            coverImg = BASE_URL + coverImg;
         }
         let author =  doc.select("#info p").first().text().replace(/作\s*者：/g, "");
         let category = doc.select('meta[property="og:novel:category"]').attr("content");
@@ -20,7 +21,7 @@ function execute(url) {
             author: author,
             description: ("Thể loại: ") + category + '<br>' + "Mới nhất: " + newChap  + '<br>' + "Thời gian cập nhật: " + updateTime + '<br>' + descriptionMeta,
             detail: "Tác giả: " + author,
-            host: "https://www.ibiquzw.com"
+            host: BASE_URL
         });
     }
     return null;
