@@ -1,4 +1,4 @@
-let BASE_URL = 'https://www.shuku99.com';
+let BASE_URL = 'https://www.dgzcgs.com';
 try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;

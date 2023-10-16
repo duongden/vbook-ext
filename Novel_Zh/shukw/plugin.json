@@ -2,10 +2,10 @@
   "metadata": {
     "name": "shukw",
     "author": "Đường đen",
-    "version": 5,
-    "source": "https://www.shuku99.com",
-    "regexp": "(www.|m.)?shuku99.com/(read|book)/\\d+/?$",
-    "description": "Đọc truyện trên trang shuku99.com",
+    "version": 6,
+    "source": "https://www.dgzcgs.com",
+    "regexp": "(www.|m.)?dgzcgs.com/(read|book)/\\d+/?$",
+    "description": "Đọc truyện trên trang dgzcgs.com. Đã cập nhật code sửa domain bằng mã bổ sung",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

@@ -4,7 +4,10 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        let coverImg = doc.select('meta[property="og:image"]').attr("content");
+        let coverImg = doc.select("#fmimg img").first().attr("data-original");
+        if (coverImg.includes("nocover.jpg")) {
+            coverImg = "https://raw.githubusercontent.com/duongden/vbook/main/nocover.jpg";
+        }
         let descriptionMeta = doc.select('meta[property="og:description"]').attr("content").replace("r>","").replace("《",'"').replace("》",'"');
 
         let title = doc.select('meta[property="og:title"]').attr("content");
@@ -13,16 +16,19 @@ function execute(url) {
         let author = doc.select('meta[property="og:novel:author"]').attr("content");
         let category = doc.select('meta[property="og:novel:category"]').attr("content");
         let updateTime = doc.select('meta[property="og:novel:update_time"]').attr("content").replace(/\d\d:\d\d:\d\d/g, "");
-
-        if (coverImg.startsWith("/")) {
-            coverImg = BASE_URL + coverImg;
-        }
         return Response.success({
             name: title,
             cover: coverImg,
             author: author,
-            description: "Thể loại: " + category + '<br>' + "Tình trạng: " + status + '<br>' + "Mới nhất: " + newChap  + '<br>' + "Thời gian cập nhật: " + updateTime + '<br>' + descriptionMeta,
-            detail: "Tác giả: " + author,
+            description: descriptionMeta,
+            detail: "Thể loại: " + category + '<br>' + "Tình trạng: " + status + '<br>' + "Mới nhất: " + newChap  + '<br>' + "Thời gian cập nhật: " + updateTime,
+            suggests: [
+                {
+                    title: "Đề cử sách: ",
+                    input: doc.select(".listtj").html(),
+                    script: "similar.js"
+                }
+            ],
             host: BASE_URL
         });
     }

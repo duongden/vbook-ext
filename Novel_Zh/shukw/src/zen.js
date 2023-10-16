@@ -1,19 +1,26 @@
+load('config.js');
 function execute(url, page) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     if(!page) page = '1';
 
-    let response = fetch("https://www.shuku99.com" + url + page +"/");
+    let response = fetch(BASE_URL + url + page +"/");
     if (response.ok) {
         let doc = response.html();
         const data = [];
         let next = doc.select("a:contains(>>)").first().attr("href").slice(0, -1).split(/[/ ]+/).pop()
         console.log(next)
+
 		doc.select(".item").forEach(e => {
+            let coverImg = e.select("img.lazy").attr("data-original");
+            if (coverImg.includes("nocover.jpg")) {
+                coverImg = "https://raw.githubusercontent.com/duongden/vbook/main/nocover.jpg";
+            }
             data.push({
                 name: e.select("dl dt a").first().text().replace("《","").replace("》",""),
-                link: "https://www.shuku99.com" + e.select("dl dt a").attr("href"),
-                cover: e.select(".image a img").attr("data-original"),
+                link: BASE_URL + e.select("dl dt a").attr("href"),
+                cover: coverImg,
                 description: e.select(".btm").text(),
-                host: "https://www.shuku99.com"
+                host: BASE_URL
             })
         });
 
