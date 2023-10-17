@@ -324,17 +324,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "58160.net",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/58160/plugin.zip",
-      "version": 2,
-      "source": "https://m.58160.net",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/58160/icon.png",
-      "description": "Đọc truyện trên trang https://m.58160.net",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "爱笔楼-ibiquge.net",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge/plugin.zip",
