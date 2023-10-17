@@ -170,17 +170,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "112738",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/112738/plugin.zip",
-      "version": 8,
-      "source": "https://www.teicc.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/112738/icon.png",
-      "description": "Đọc truyện trên trang https://www.teicc.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "shukw",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/shukw/shukw.zip",
