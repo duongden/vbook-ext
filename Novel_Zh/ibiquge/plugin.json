@@ -2,9 +2,9 @@
   "metadata": {
     "name": "爱笔楼-ibiquge.net",
     "author": "Moleys",
-    "version": 9,
-    "source": "https://www.ibiquzw.com",
-    "regexp": "(www.)?ibiquzw.com/\\d+_\\d+/?$",
+    "version": 10,
+    "source": "http://www.ibiquzw.info",
+    "regexp": "(www.)?ibiquzw.info/\\d+_\\d+/?$",
     "description": "ibiquzw.info",
     "locale": "zh_CN",
     "language": "javascript",
