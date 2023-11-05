@@ -2,9 +2,9 @@
   "metadata": {
     "name": "asuracomics",
     "author": "Đường đen",
-    "version": 3,
-    "source": "https://asuracomics.gg",
-    "regexp": "https://asuracomics.gg/manga/[0-9a-z-]+/?$",
+    "version": 4,
+    "source": "https://asuratoon.com",
+    "regexp": "https://asuratoon.com/manga/[0-9a-z-]+/?$",
     "description": "Read manhwa at asuracomics",
     "locale": "en_US",
     "language": "javascript",

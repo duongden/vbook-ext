@@ -8,7 +8,7 @@ function execute(input) {
             link: e.select("h2 a").attr("href"),
             cover: e.select("div.imgseries > a > img").first().attr("src"),
             description: "Score: " + e.select(".numscore").text(),
-            host: "https://asuracomics.gg",
+            host: "https://asuratoon.com",
         })
 //#wpop-items > div.serieslist.pop.wpop.wpop-weekly > ul > li:nth-child(1) > div.imgseries > a > img
     });

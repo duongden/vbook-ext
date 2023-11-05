@@ -1,7 +1,7 @@
 function execute(url, page) {
     if (!page) page = 1;
-    let response = fetch("https://asuracomics.gg/manga/?" + "page=" + page + "&" + url);
-    console.log("https://asuracomics.gg/manga/?" + "page=" + page + "&" + url)
+    let response = fetch("https://asuratoon.com/manga/?" + "page=" + page + "&" + url);
+    console.log("https://asuratoon.com/manga/?" + "page=" + page + "&" + url)
     if (response.ok) {
         let doc = response.html();
         const data = [];
@@ -11,7 +11,7 @@ function execute(url, page) {
                 link: e.select(".bsx a").first().attr("href"),
                 cover: e.select(".limit img.ts-post-image").first().attr("src"),
                 description: "Score: " + e.select(".numscore").first().text(),
-                host: "https://asuracomics.gg"
+                host: "https://asuratoon.com"
             })
         });
         // Extract the next page link and parse it to get the page number
