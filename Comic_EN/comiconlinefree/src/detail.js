@@ -22,7 +22,7 @@ function execute(url) {
             description: descriptionMeta,
             genres: genres,
             detail: cleanedDetailHtml,
-            host: "https://comiconlinefree.net"
+            host: "https://comiconlinefree.org"
         });
     }
     return null;

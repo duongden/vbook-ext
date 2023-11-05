@@ -1,18 +1,18 @@
 function execute(key, page) {
     if (!page) page = 1;
-    let response = fetch('https://zinmanga.com/?s=' + key + "&post_type=wp-manga");
+    let response = fetch('https://comiconlinefree.org/advanced-search?key=' + key + "&wg=&wog=&status=");
 
     if (response.ok) {
         let doc = response.html();
         const data = [];
-       
-		doc.select(".c-tabs-item__content").forEach(e => {
+
+		doc.select(".as-results .manga-box").forEach(e => {
             data.push({
-                name: e.select(".h4 a").first().text(),
-                link: e.select(".h4 a").first().attr("href"),
-                cover: e.select(".c-image-hover img").first().attr("data-src"),
-                description: e.select(".total_votes").first().text(),
-                host: "https://zinmanga.com"
+                name: e.select("h3 a").first().text(),
+                link: e.select("h3 a").first().attr("href"),
+                cover: e.select("a img").first().attr("data-original"),
+                description: e.select(".detail").first().text(),
+                host: "https://comiconlinefree.org"
             })
         });
         var next = (parseInt(page)+1).toString();

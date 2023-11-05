@@ -2,9 +2,9 @@
   "metadata": {
     "name": "comiconlinefree",
     "author": "Đường đen",
-    "version": 1,
-    "source": "https://comiconlinefree.net",
-    "regexp": "https://comiconlinefree.net/(comic)/.*?",
+    "version": 2,
+    "source": "https://comiconlinefree.org",
+    "regexp": "https://comiconlinefree.org/(comic)/.*?",
     "description": "comiconlinefree",
     "local": "en_US",
     "language": "javascript",

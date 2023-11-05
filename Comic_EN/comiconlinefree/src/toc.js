@@ -11,7 +11,7 @@ function execute(url) {
             chapList.push({
                 name: e.text(),
                 url: e.attr("href") + ("/full"),
-                host: "https://comiconlinefree.net"
+                host: "https://comiconlinefree.org"
             });
         }
         return Response.success(chapList);

@@ -1,8 +1,8 @@
 function execute(url, page) {
     if (!page) page = '1';
 
-    let response = fetch("https://comiconlinefree.net" + url + "/" + page);
-    console.log("https://comiconlinefree.net" + url + "/" + page)
+    let response = fetch("https://comiconlinefree.org" + url + "/" + page);
+    console.log("https://comiconlinefree.org" + url + "/" + page)
     if (response.ok) {
         let doc = response.html();
         const data = [];
@@ -14,7 +14,7 @@ function execute(url, page) {
                 link: e.select("a.hlb-name").first().attr("href"),
                 cover: coverImg,
                 description: "Updated: " + e.select(".date").first().text(),
-                host: "https://comiconlinefree.net"
+                host: "https://comiconlinefree.org"
             })
         });
         var next = (parseInt(page)+1).toString();

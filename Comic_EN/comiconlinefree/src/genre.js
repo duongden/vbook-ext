@@ -1,6 +1,6 @@
 
 function execute() {
-    let response = fetch("https://comiconlinefree.net" + "/comic-genres");
+    let response = fetch("https://comiconlinefree.org" + "/comic-genres");
     if (response.ok) {
         let doc = response.html();
         let data = [];
