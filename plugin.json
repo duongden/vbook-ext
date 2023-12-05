@@ -281,12 +281,12 @@
     },
     {
       "name": "qicaitan",
-      "author": "Moleys",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge/plugin.zip",
-      "version": 10,
-      "source": "http://www.ibiquzw.info",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ibiquge/icon.png",
-      "description": "Đọc truyện trên trang ibiquzw.info",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/qicaitan/plugin.zip",
+      "version": 1,
+      "source": "https://www.qicaitian.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/qicaitan/icon.png",
+      "description": "Trang qicaitian.org ko cho search",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
