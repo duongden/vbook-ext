@@ -27,17 +27,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "旧时光文学-oldtimesxs-cc",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/oldtimesxs-cc/plugin.zip",
-      "version": 2,
-      "source": "https://www.oldtimescc.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/oldtimesxs-cc/icon.png",
-      "description": "Đọc truyện trên trang https://www.oldtimescc.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "笔趣阁-b520",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/b520.cc/plugin.zip",
