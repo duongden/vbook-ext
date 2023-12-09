@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "x33xs4",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/x33xs4/plugin.zip",
+      "version": 1,
+      "source": "https://www.x33xs4.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/x33xs4/icon.png",
+      "description": "Đọc truyện trên trang x33xs4.com",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "bqgbi",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/bqgbi/plugin.zip",
