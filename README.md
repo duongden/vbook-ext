@@ -278,4 +278,4 @@ Về khai báo sử dụng id:
 `<div id="wp"></div>`
 Về khai báo sử dụng class:
 `<h2 class="title"></h2>`
-Khi khai báo tro
+Khi khai báo trong CSS, thì id sẽ bắt đầu bằng dấu thăng `( # )` còn class là dấu chấm `( . )`
