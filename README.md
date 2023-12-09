@@ -274,3 +274,8 @@ browser.close() // Đóng browser khi đã xử lý xong
 Console.log() // Log data in tab logcat
 load('filename.js') // Load file js
 ```
+Về khai báo sử dụng id:
+<div id="wp"></div>
+Về khai báo sử dụng class:
+<h2 class="title"></h2>
+Khi khai báo tro
