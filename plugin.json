@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "idejian",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/idejian/plugin.zip",
+      "version": 1,
+      "source": "https://www.idejian.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/idejian/icon.png",
+      "description": "Trang idejian dùng giao diện Desktop",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "soxscc",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/soxscc/plugin.zip",
