@@ -1,5 +1,10 @@
 function execute(key, page) {
-    let response = fetch('https://www.idejian.com/search?keyword=' + key);
+    let response = fetch('https://www.idejian.com/search?keyword=' + key,
+    {
+        headers: {
+            'user-agent': UserAgent.desktop()
+        }
+    });;
 
     if (response.ok) {
         let doc = response.html();
