@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "zbcxw",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/zbcxw/plugin.zip",
+      "version": 1,
+      "source": "https://www.zbcxw.cn",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/zbcxw/icon.png",
+      "description": "Đọc truyện trên trang zbcxw.cn",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "cuisiliu",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/cuisiliu/plugin.zip",
