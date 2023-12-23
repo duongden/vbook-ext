@@ -126,17 +126,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "东流小说 - dongliuxiaoshuo",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/dongliuxiaoshuo/plugin.zip",
-      "version": 5,
-      "source": "https://www.bifengzw.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/dongliuxiaoshuo/icon.png",
-      "description": "Đọc truyện trên trang https://www.bifengzw.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "2K小说网-2kxs",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/2kxs-cc/plugin.zip",
@@ -166,17 +155,6 @@
       "source": "https://www.chuandaipc.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/chuandaipc/icon.png",
       "description": "Đọc truyện trên trang https://www.chuandaipc.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "youyoukanshu",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/youyoukanshu/plugin.zip",
-      "version": 4,
-      "source": "https://www.youyoukanshu.com/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/youyoukanshu/icon.png",
-      "description": "Đọc truyện trên trang https://www.youyoukanshu.com/",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
