@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "cuisiliu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/cuisiliu/plugin.zip",
+      "version": 1,
+      "source": "https://www.cuisiliu.net",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/cuisiliu/icon.png",
+      "description": "Đọc truyện trên trang cuisiliu.net -  Search bằng browser",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "idejian",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/idejian/plugin.zip",
