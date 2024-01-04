@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "笔趣阁-frgls",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.frgls.com",
+    "regexp": "(www.|m.)?frgls.com/txt/\\d+/?$",
+    "description": "Đọc truyện trên trang frgls.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel",
+    "tag": "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

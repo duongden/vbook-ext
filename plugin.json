@@ -5,6 +5,18 @@
   },
   "data": [
     {
+      "name": "frgls",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/frgls/plugin.zip",
+      "version": 1,
+      "source": "https://www.frgls.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/frgls/icon.png",
+      "description": "Đọc truyện trên trang frgls.com. Sửa tên miền bằng Mã bổ sung",
+      "type": "chinese_novel",
+      "locale": "zh_CN",
+      "tag": "nsfw"
+    },
+    {
       "name": "qmbook",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/qmbook/plugin.zip",
