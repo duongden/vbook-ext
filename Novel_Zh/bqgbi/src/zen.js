@@ -1,6 +1,7 @@
+load('config.js');
 function execute(url, page) {
     if(!page) page = '1';
-    let response = fetch("https://www.bqgbi.com/json?sortid=" + url + "&page=" + page);
+    let response = fetch(BASE_URL + "/json?sortid=" + url + "&page=" + page);
     if (response.ok) {
         let doc = response.json();
         const data = [];
@@ -10,7 +11,7 @@ function execute(url, page) {
                 link: e.url_list,
                 cover: e.url_img,
                 description: e.author,
-                host: "https://www.bqgbi.com"
+                host: BASE_URL
             })
         });
 		if (data.length === 0) {

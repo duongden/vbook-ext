@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
 
     let response = fetch(url);
@@ -9,11 +10,11 @@ function execute(url) {
         const data = [];
         for (let i = 0; i < el.size(); i++) {
             var e = el.get(i);
-            
+
             data.push({
                 name: e.select("a").text(),
-                url: "https://www.bqgbi.com" + e.attr("href"),
-                host: "https://www.bqgbi.com"
+                url: BASE_URL + e.attr("href"),
+                host: BASE_URL
             })
         }
         return Response.success(data);

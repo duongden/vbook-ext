@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "qmbook",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/qmbook/plugin.zip",
+      "version": 1,
+      "source": "https://www.qmbook.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/qmbook/icon.png",
+      "description": "Đọc truyện trên trang qmbook.cc. Sửa tên miền bằng Mã bổ sung",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "jnwx",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/jnwx/plugin.zip",
@@ -85,7 +96,7 @@
       "name": "bqgbi",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/bqgbi/plugin.zip",
-      "version": 1,
+      "version": 3,
       "source": "https://www.bqgbi.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/bqgbi/icon.png",
       "description": "Đọc truyện trên trang bqgbi.com",

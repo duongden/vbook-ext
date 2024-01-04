@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     let response = fetch(url);
     if (response.ok) {
@@ -14,7 +15,7 @@ function execute(url) {
 
 
         if (coverImg.startsWith("/")) {
-            coverImg = "https://www.bqgbi.com" + coverImg;
+            coverImg = BASE_URL + coverImg;
         }
         return Response.success({
             name: novelTitle,
@@ -33,7 +34,7 @@ function execute(url) {
                 input: doc.select("#comment").html(),
                 script: "comment.js"
             },
-            host: "https://www.bqgbi.com"
+            host: BASE_URL
         });
     }
     return null;
