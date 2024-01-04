@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "jnwx",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/jnwx/plugin.zip",
+      "version": 1,
+      "source": "https://www.jnwx.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/jnwx/icon.png",
+      "description": "Đọc sách trên trang jnwx.org. Search dùng browser để tìm",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "beqege",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/beqege/plugin.zip",
