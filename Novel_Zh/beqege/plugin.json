@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "beqege",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.beqege.cc",
+    "regexp": "(www.|m.)?beqege.cc/\\d+/?$",
+    "description": "Đọc sách trên trang beqege.cc. Search có cloudfare nên dùng browser để tìm",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
