@@ -2,9 +2,9 @@
   "metadata": {
     "name": "idejian",
     "author": "Đường đen",
-    "version": 2,
+    "version": 3,
     "source": "https://www.idejian.com",
-    "regexp": "www.idejian.com/book/\\d+/?",
+    "regexp": "www.idejian.(.*?)/book/\\d+/?",
     "description": "Trang idejian dùng giao diện Desktop",
     "locale": "zh_CN",
     "language": "javascript",

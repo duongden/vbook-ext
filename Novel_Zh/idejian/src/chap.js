@@ -2,7 +2,9 @@ function execute(url) {
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-        let htm = doc.select(".h5_mainbody p").html();
+        doc.select("h1").remove();
+        doc.select(".zhangyue-tablebody").remove();
+        let htm = doc.select(".h5_mainbody").html();
         htm = cleanHtml(htm);
         return Response.success(htm);
     }
