@@ -1,5 +1,6 @@
+load('config.js');
 function execute(url) {
-    url = url.replace('m.idejian.com', 'www.idejian.com');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url);
     if (response.ok) {
         let json = response.json();
@@ -11,8 +12,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.text(),
-                url: "https://www.idejian.com" + e.attr("href"),
-                host: "https://www.idejian.com"
+                url: BASE_URL + e.attr("href"),
+                host: BASE_URL
             });
 
         }

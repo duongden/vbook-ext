@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     let response = fetch(url)
     if (response.ok) {
@@ -8,7 +9,7 @@ function execute(url) {
         const number = match ? parseInt(match[1]) : 1;
         let bookId = url.trim().replace(/\/$/, '').split(/[/ ]+/).pop();
         for (let i = 1; i <= Math.ceil(number / 50); i++) {
-            data.push("https://www.idejian.com/catelog/" + bookId + "/1?page=" + i.toString())
+            data.push(BASE_URL + "/catelog/" + bookId + "/1?page=" + i.toString())
         }
         return Response.success(data);
     }

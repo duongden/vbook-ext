@@ -1,5 +1,6 @@
+load('config.js');
 function execute(key, page) {
-    let response = fetch('https://www.idejian.com/search?keyword=' + key,
+    let response = fetch(BASE_URL + '/search?keyword=' + key,
     {
         headers: {
             'user-agent': UserAgent.desktop()
@@ -12,9 +13,9 @@ function execute(key, page) {
         doc.select(".rank_ullist li").forEach(e => {
             data.push({
                 name: e.select(".rank_bkname a").first().text(),
-                link: "https://www.idejian.com" + e.select(".rank_bkname a").first().attr("href"),
+                link: BASE_URL + e.select(".rank_bkname a").first().attr("href"),
                 description: e.select(".author").first().text(),
-                host: "https://www.idejian.com"
+                host: BASE_URL
             })
         });
         var next = (parseInt(page) + 1).toString();
