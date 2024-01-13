@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "【聚小说】juxiaoshuo",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/juxiaoshuo/plugin.zip",
+      "version": 1,
+      "source": "https://www.juxiaoshuo.net",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/juxiaoshuo/icon.png",
+      "description": "Đọc truyện trên trang juxiaoshuo",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "frgls",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/frgls/plugin.zip",
