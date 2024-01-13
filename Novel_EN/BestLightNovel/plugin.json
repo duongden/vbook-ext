@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "BestLightNovel",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://bestlightnovel.com",
+    "regexp": "https://bestlightnovel.com/(.*?)_\\d+/?$",
+    "description": "Đọc truyện trên trang BestLightNovel",
+    "locale": "en-US",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
