@@ -7,11 +7,11 @@
     {
       "name": "69shu - repo Đường đen",
       "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/juxiaoshuo/plugin.zip",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/69shu/plugin.zip",
       "version": 7,
-      "source": "https://www.juxiaoshuo.net",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/juxiaoshuo/icon.png",
-      "description": "Đọc truyện trên trang juxiaoshuo",
+      "source": "https://www.69xinshu.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/69shu/icon.png",
+      "description": "Đọc truyện trên trang 69xinshu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
