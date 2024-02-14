@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "dajiadu8",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/dajiadu8/plugin.zip",
+      "version": 1,
+      "source": "https://www.dajiadu8.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/dajiadu8/icon.png",
+      "description": "Đọc truyện trên trang dajiadu8. Search bằng browser",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "69shu - repo Đường đen",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/FixedDomain/69shu/plugin.zip",
