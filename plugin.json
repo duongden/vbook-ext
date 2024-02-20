@@ -281,17 +281,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "bookbens",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/bookbens/plugin.zip",
-      "version": 1,
-      "source": "https://www.bookbens.com/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/bookbens/icon.png",
-      "description": "Đọc truyện trên trang https://www.bookbens.com/",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "ijjxsw.cc",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-cc/plugin.zip",
