@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "74txt",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/74txt/plugin.zip",
+      "version": 1,
+      "source": "https://www.74txt.cc",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/74txt/icon.png",
+      "description": "Đọc truyện trên trang 74txt.cc.",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "biqu5200",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/biqu5200/plugin.zip",
