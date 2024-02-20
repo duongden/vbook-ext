@@ -2,7 +2,7 @@
   "metadata": {
     "name": "biqu5200",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "http://www.biqu5200.net",
     "regexp": "(www.|m.)?biqu5200.net/\\d+_\\d+/?$",
     "description": "Đọc truyện trên trang biqu5200.net",
