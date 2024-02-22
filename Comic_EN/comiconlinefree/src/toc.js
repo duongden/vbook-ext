@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     let response = fetch(url);
 
@@ -11,7 +12,7 @@ function execute(url) {
             chapList.push({
                 name: e.text(),
                 url: e.attr("href") + ("/full"),
-                host: "https://comiconlinefree.org"
+                host: BASE_URL
             });
         }
         return Response.success(chapList);

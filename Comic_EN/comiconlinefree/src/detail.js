@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     let response = fetch(url);
     if (response.ok) {
@@ -22,7 +23,7 @@ function execute(url) {
             description: descriptionMeta,
             genres: genres,
             detail: cleanedDetailHtml,
-            host: "https://comiconlinefree.org"
+            host: BASE_URL
         });
     }
     return null;

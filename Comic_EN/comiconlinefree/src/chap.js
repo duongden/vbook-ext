@@ -1,4 +1,4 @@
-
+load('config.js');
 function execute(url) {
     var doc = Http.get(url).html()
     var imgs= doc.select(".chapter-container img")

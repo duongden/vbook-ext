@@ -1,6 +1,6 @@
-
+load('config.js');
 function execute() {
-    let response = fetch("https://comiconlinefree.org" + "/comic-genres");
+    let response = fetch(BASE_URL + "/comic-genres");
     if (response.ok) {
         let doc = response.html();
         let data = [];
