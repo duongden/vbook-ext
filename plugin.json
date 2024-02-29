@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "xszj",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/xszj/plugin.zip",
+      "version": 1,
+      "source": "https://www.sudugu.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/xszj/icon.png",
+      "description": "Đọc truyện trên trang xszj.",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "速读谷 - Sudugu",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/sudugu/plugin.zip",
