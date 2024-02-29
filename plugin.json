@@ -1,9 +1,20 @@
-{
+xs{
   "metadata": {
     "author": "Đường đen",
     "description": "amateur"
   },
   "data": [
+    {
+      "name": "速读谷 - Sudugu",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/sudugu/plugin.zip",
+      "version": 1,
+      "source": "https://www.sudugu.com",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/sudugu/icon.png",
+      "description": "Đọc truyện trên trang sudugu.",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
     {
       "name": "74txt",
       "author": "Đường đen",
@@ -284,10 +295,10 @@
       "name": "shukw",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/shukw/shukw.zip",
-      "version": 7,
-      "source": "https://www.dgzcgs.com",
+      "version": 8,
+      "source": "https://www.5ok5.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/shukw/icon.png",
-      "description": "Đọc truyện trên trang dgzcgs.com",
+      "description": "Đọc truyện trên trang 5ok5.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
