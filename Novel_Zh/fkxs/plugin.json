@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "fkxs",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.fkxs.net",
+    "regexp": "(www.|h.)?fkxs.net/\\d+_\\d+/?$",
+    "description": "Đọc truyện trên trang fkxs",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

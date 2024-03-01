@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "fkxs",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/fkxs/plugin.zip",
+      "version": 1,
+      "source": "https://www.fkxs.net",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/fkxs/icon.png",
+      "description": "Đọc truyện trên trang fkxs.",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "xszj",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/xszj/plugin.zip",
