@@ -1,7 +1,8 @@
 load('config.js');
 function execute(key) {
     if (!page) page = '1';
-    let response = fetch(BASE_URL + "/search?keyword=" + key.replace(/ /g, "+"));
+    //https://novelhulk.com/ajax/search-novel?keyword=
+    let response = fetch(BASE_URL + "/ajax/search-novel?keyword=" + key.replace(/ /g, "+"));
     if (response.ok) {
         let doc = response.html();
         let novelList = [];

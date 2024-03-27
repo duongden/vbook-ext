@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Novel Next",
     "author": "Đường đen",
-    "version": 1,
+    "version": 2,
     "source": "https://novelhulk.com",
-    "regexp": "novelhulk.com/[^/]+/?$",
+    "regexp": "novelhulk.com/nb/[^/]+/?$",
     "description": "Đọc truyện trên trang Novel Next",
     "locale": "en-US",
     "type": "novel",
