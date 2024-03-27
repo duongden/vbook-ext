@@ -1,5 +1,7 @@
+load('config.js');
 function execute(key) {
-    let response = fetch('https://m.ebookbao1.com/search.php?keyword=+' + key);
+   // url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    let response = fetch(BASE_URL + '/search.php?keyword=+' + key);
 
     if (response.ok) {
         let doc = response.html();
@@ -9,9 +11,9 @@ function execute(key) {
             let author = e.select("p.author a").first().text();
             data.push({
                 name: e.select("p.title").first().text(),
-                link: "https://m.ebookbao1.com" + e.select(".hot_sale a").first().attr("href"),
+                link: BASE_URL + e.select(".hot_sale a").first().attr("href"),
                 description: author.replace("/","").trim(),
-                host: "https://m.ebookbao1.com"
+                host: BASE_URL
             })
         });
 

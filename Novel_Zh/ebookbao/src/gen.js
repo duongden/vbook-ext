@@ -1,5 +1,7 @@
+load('config.js');
 function execute(url) {
-    let response = fetch(url);
+    //url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    let response = fetch(BASE_URL + url);
 
     if (response.ok) {
         let doc = response.html();
@@ -8,9 +10,9 @@ function execute(url) {
 		doc.select("#newscontent li").forEach(e => {
             data.push({
                 name: e.select(".s2 a").first().text().replace("《","").replace("》",""),
-                link: "https://m.ebookbao1.com" + e.select(".s2 a").first().attr("href"),
+                link: BASE_URL + e.select(".s2 a").first().attr("href"),
                 description: "Chương mới: " + e.select(".s3 a").first().text(),
-                host: "https://m.ebookbao1.com"
+                host: BASE_URL
             })
         });
         return Response.success(data)

@@ -1,5 +1,5 @@
 function execute() {
     return Response.success([
-        {title: "首页", input: "https://m.ebookbao1.com", script: "gen.js"}
+        {title: "首页", input: "/", script: "gen.js"}
     ]);
 }

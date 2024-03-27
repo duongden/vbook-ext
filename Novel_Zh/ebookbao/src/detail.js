@@ -1,11 +1,13 @@
+load('config.js');
 function execute(url) {
+  //  url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url + "/");
     if (response.ok) {
         let doc = response.html();
 
         let coverImg = doc.select("#thumb img").first().attr("src");
         if (coverImg.startsWith("/")) {
-            coverImg = "https://m.ebookbao1.com" + coverImg;
+            coverImg = BASE_URL + coverImg;
         }
         let author = doc.select(".author a").first().text();
         return Response.success({
@@ -14,7 +16,7 @@ function execute(url) {
             author: author,
             detail: "Tác giả: " + author,
             description: doc.select("li.sort").text() + "<br>" + doc.select("#book_detail > li:nth-child(3)").text() + "<br>" + doc.select("#book_detail > li:nth-child(4)").text().replace(/\d\d:\d\d:\d\d/g, "") + "<br>" + doc.select(".review").text(),
-            host: "https://m.ebookbao1.com"
+            host: BASE_URL
         });
     }
     return null;

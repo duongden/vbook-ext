@@ -1,4 +1,4 @@
-
+load('config.js');
 function execute(url) {
     let newurl = url + "/all.html";
     let response = fetch(newurl);
@@ -12,8 +12,8 @@ function execute(url) {
             var e = el.get(i);
             data.push({
                 name: e.select("a").text(),
-                url: "https://m.ebookbao1.com" + e.attr("href"),
-                host: "https://m.ebookbao1.com"
+                url: BASE_URL + e.attr("href"),
+                host: BASE_URL
             })
         }
         return Response.success(data);

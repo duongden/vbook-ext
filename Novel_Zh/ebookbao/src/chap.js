@@ -1,11 +1,12 @@
-
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let data  ="";
-    let part1 = url.replace("https://www.ebookbao1.com", "").replace("https://m.ebookbao1.com", "").replace(".html","")
+    let part1 = url.replace(BASE_URL, "").replace(".html","")
     var next = part1;
     while (next.includes(part1)) {
         console.log(next)
-        let response = fetch("https://m.ebookbao1.com" + next + ".html");
+        let response = fetch(BASE_URL + next + ".html");
         if (response.ok) {
             let doc = response.html();
             next = doc.select("a:contains(下一页)").first().attr("href").replace(".html","");
