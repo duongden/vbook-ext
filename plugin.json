@@ -5,6 +5,17 @@
   },
   "data": [
     {
+      "name": "ijjxsw-net",
+      "author": "Đường đen",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-net/plugin.zip",
+      "version": 2,
+      "source": "http://ijjxs.net",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-net/icon.png",
+      "description": "Đọc truyện trên trang ijjxs.net.",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
+    {
       "name": "fkxs",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/fkxs/plugin.zip",
@@ -332,18 +343,6 @@
       "source": "https://www.31dv.com/",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/31dv/icon.png",
       "description": "Đọc truyện trên trang https://www.31dv.com/",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-
-    {
-      "name": "ijjxsw.net",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-net/plugin.zip",
-      "version": 1,
-      "source": "http://www.ijjjxs.net/",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/ijjxsw-net/icon.png",
-      "description": "Đọc truyện trên trang http://www.ijjjxs.net/",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
