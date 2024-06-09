@@ -2,7 +2,7 @@
   "metadata": {
     "name": "shukw",
     "author": "Đường đen",
-    "version": 10,
+    "version": 11,
     "source": "https://www.menlx.com",
     "regexp": "(www.|m.)?menlx.com/(read|book)/\\d+/?$",
     "description": "Đọc truyện trên trang 5ok5.com. Đã cập nhật code sửa domain bằng mã bổ sung",
