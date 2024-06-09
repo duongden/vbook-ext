@@ -1,6 +1,7 @@
+load('config.js');
 function execute(url, page) {
     if (!page) page = 1;
-    const doc = Http.get(url).params({paged: page}).html();
+    const doc = Http.get(BASE_URL + url).params({paged: page}).html();
 const el = doc.select(".c-tabs-item__content")
 const data = [];
 for (var i = 0; i < el.size(); i++) {
@@ -10,7 +11,7 @@ for (var i = 0; i < el.size(); i++) {
         link: e.select(".h4 a").first().attr("href"),
         cover: e.select(".c-image-hover img").first().attr("data-src"),
         description: e.select(".total_votes").first().text(),
-        host: "https://zinmanga.com"
+        host: BASE_URL
     })
 }
         var next = (parseInt(page)+1).toString();

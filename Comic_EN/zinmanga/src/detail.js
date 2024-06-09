@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     let response = fetch(url);
     if (response.ok) {
@@ -30,7 +31,7 @@ function execute(url) {
                     script: "suggest.js"
                 }
             ],
-            host: "https://zinmanga.com"
+            host: BASE_URL
         });
     }
     return null;

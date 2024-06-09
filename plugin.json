@@ -553,23 +553,12 @@
       "name": "zinmanga",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_EN/zinmanga/plugin.zip",
-      "version": 3,
+      "version": 4,
       "source": "https://zinmanga.com",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_EN/zinmanga/icon.png",
       "description": "Đọc truyện trên trang zinmanga",
       "locale": "en_US",
       "type": "comic"
-    },
-    {
-      "name": "zinnovel",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/zinnovel/plugin.zip",
-      "version": 1,
-      "source": "https://zinnovel.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_EN/zinnovel/icon.png",
-      "description": "Đọc truyện trên trang zinnovel",
-      "locale": "en_US",
-      "type": "novel"
     },
     {
       "name": "readlightnovel",

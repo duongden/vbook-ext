@@ -1,3 +1,4 @@
+load('config.js');
 function execute(input) {
     let doc = Html.parse(input);
     let books = [];
@@ -7,7 +8,7 @@ function execute(input) {
             link: e.select(".widget-title a").attr("href"),
             cover: e.select(".c-image-hover img").first().attr("data-src"),
             description: "",
-            host: "https://zinmanga.com",
+            host: BASE_URL,
         })
 
     });
