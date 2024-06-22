@@ -1,6 +1,7 @@
+load('config.js');
 function execute(url) {
-	url = url.replace('m.ibiquges.com', 'www.ibiquges.com');
-    let response = fetch(url);
+    //url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    let response = fetch(BASE_URL + url);
     if (response.ok) {
         let doc = response.html();
         const data = [];
@@ -10,7 +11,7 @@ function execute(url) {
                 name: e.select(".s2 a").first().text(),
                 link: e.select(".s2 a").first().attr("href"),
                 description: e.select(".s3 a").first().text(),
-                host: "https://www.ibiquges.com"
+                host: BASE_URL
             })
         });
 

@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     let response2 = fetch(url);
     if (response2.ok) {
@@ -9,7 +10,7 @@ function execute(url) {
             data.push({
                 name: e.select("a").text(),
                 url: e.attr("href"),
-                host: "https://www.ibiquges.com"
+                host: BASE_URL
             })
         }
         return Response.success(data);

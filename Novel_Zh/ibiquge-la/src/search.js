@@ -1,5 +1,6 @@
+load('config.js');
 function execute(key, page) {
-    let response = fetch('https://www.ibiquges.com/modules/article/waps.php', {
+    let response = fetch(BASE_URL + '/modules/article/waps.php', {
         method: "POST",
         body: {
             searchkey : key,
@@ -15,7 +16,7 @@ function execute(key, page) {
                     name: e.select("td:nth-child(1) > a").first().text(),
                     link: e.select("td:nth-child(1) > a").first().attr("href"),
                     description: e.select("td:nth-child(3)").first().text(),
-                    host: "https://www.ibiquges.com"
+                    host: BASE_URL
                 })
             }
         });

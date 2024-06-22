@@ -1,5 +1,6 @@
+load('config.js');
 function execute(url) {
-    url = url.replace('m.ibiquges.com', 'www.ibiquges.com');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
@@ -11,9 +12,9 @@ function execute(url) {
             name: doc.select("#info h1").text(),
             cover: coverImg,
             author: author,
-            description: ("Thể loại: ") + category + '<br>' + doc.select("#info > p:nth-child(5)").text()  + '<br>' + doc.select("#info > p:nth-child(4)").text().replace(/\d\d:\d\d:\d\d/g, "") + '<br>' + descriptionMeta,
-            detail: "Tác giả: " + author,
-            host: "https://www.ibiquges.com"
+            description: descriptionMeta,
+            detail: "Tác giả: " + author  + '<br>' +  ("Thể loại: ") + category + '<br>' + doc.select("#info > p:nth-child(5)").text()  + '<br>' + doc.select("#info > p:nth-child(4)").text().replace(/\d\d:\d\d:\d\d/g, ""),
+            host: BASE_URL
         });
     }
     return null;
