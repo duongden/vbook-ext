@@ -4,13 +4,13 @@
     "description": "amateur"
   },
   "data": [
-        {
+      {
       "name": "言情小说阁 (APP)",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/maoyankanshu.zip",
       "version": 1,
       "source": "http://www.xianqihaotianmi.org",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/tianxibook/icon.png",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/icon.png",
       "description": "Đọc truyện trên trang xianqihaotianmi",
       "type": "chinese_novel",
       "locale": "zh_CN"
@@ -282,17 +282,6 @@
       "source": "https://www.bqgbi.cc",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/bqgbi/icon.png",
       "description": "Đọc truyện trên trang bqgbi.com",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "69书吧-69Shu",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/69shu-org/plugin.zip",
-      "version": 6,
-      "source": "https://www.69shu.us",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/69shu-org/icon.png",
-      "description": "Đọc truyện trên trang https://www.69shu.us",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
