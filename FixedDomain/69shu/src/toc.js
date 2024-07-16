@@ -20,7 +20,7 @@ function execute(url) {
 				host: BASE_URL
 			})
 		});
-
+        data = data.reverse();
 		return Response.success(data);
     }
     return null;
