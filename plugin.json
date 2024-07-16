@@ -4,6 +4,17 @@
     "description": "amateur"
   },
   "data": [
+        {
+      "name": "言情小说阁 (APP)",
+      "author": "Nhocconsr",
+      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/maoyankanshu.zip",
+      "version": 1,
+      "source": "http://www.xianqihaotianmi.org",
+      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/tianxibook/icon.png",
+      "description": "Đọc truyện trên trang xianqihaotianmi",
+      "type": "chinese_novel",
+      "locale": "zh_CN"
+    },
     {
       "name": "Người Lao Động",
       "author": "Đường đen",
