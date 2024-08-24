@@ -550,17 +550,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "asuracomics",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_EN/asuracomics/plugin.zip",
-      "version": 4,
-      "source": "https://asuratoon.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_EN/asuracomics/icon.png",
-      "description": "Đọc truyện trên trang asuracomics",
-      "locale": "en_US",
-      "type": "comic"
-    },
-    {
       "name": "comiconlinefree",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Comic_EN/comiconlinefree/plugin.zip",
