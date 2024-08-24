@@ -209,17 +209,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "beqege",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/beqege/plugin.zip",
-      "version": 1,
-      "source": "https://www.beqege.cc",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/beqege/icon.png",
-      "description": "Đọc sách trên trang beqege.cc. Search có cloudfare nên dùng browser để tìm",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "zbcxw",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/zbcxw/plugin.zip",
