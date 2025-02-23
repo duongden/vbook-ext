@@ -131,17 +131,6 @@
       "locale": "zh_CN"
     },
     {
-      "name": "74txt",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/74txt/plugin.zip",
-      "version": 1,
-      "source": "https://www.74txt.cc",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/74txt/icon.png",
-      "description": "Đọc truyện trên trang 74txt.cc.",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
       "name": "biqu5200",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/biqu5200/plugin.zip",
@@ -282,17 +271,6 @@
       "source": "https://www.b520.cc",
       "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/b520.cc/icon.png",
       "description": "Đọc truyện trên trang https://www.b520.cc",
-      "type": "chinese_novel",
-      "locale": "zh_CN"
-    },
-    {
-      "name": "恋上你看书网 - 630shu.com",
-      "author": "Đường đen",
-      "path": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/630shu-com/plugin.zip",
-      "version": 3,
-      "source": "https://www.630shu.com",
-      "icon": "https://raw.githubusercontent.com/duongden/vbook/main/Novel_Zh/630shu-com/icon.png",
-      "description": "Đọc truyện trên trang https://www.630shu.com",
       "type": "chinese_novel",
       "locale": "zh_CN"
     },
